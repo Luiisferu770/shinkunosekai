@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkblue;
+   
+}
+
+#container{
+    /*los hijos se puedan mover*/
+    display: flex;
+    /*horizontal*/
+    flex-direction: row;
+    justify-content: center;/*center, space-evenly, space-beetwen*/
+    margin-top: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+#container .Tarjetas{
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: wheat ;
+    box-shadow: 2px 3px 4px gray;
+}
+
+.Tarjetas img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.Tarjetas p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+}
+
+#container .Tarjetas:hover{
+    background-color: blanchedalmond;
+    box-shadow: 4px 5px 7px rgb(60, 28, 28);
+    cursor: pointer;
+}

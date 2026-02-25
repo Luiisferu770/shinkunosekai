@@ -1,0 +1,302 @@
+[
+  {
+
+        "titulo": "Black Clover",
+      "imagen": "img/Black Clover Portada.jpg",
+      "fondo": "img/Black clover Fondo.jpg",
+      "descripcion": "Asta, nacido sin magia en un reino gobernado por ella, desafía las reglas del mundo mientras enfrenta demonios, rivales y una guerra que amenaza con destruirlo todo.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]},
+
+      {
+      "titulo": "Bleach",
+      "imagen": "img/Bleach_portada.jpg",
+      "fondo": "img/Bleach fondo.jpg",
+      "descripcion": "Ichigo Kurosaki descubre que su destino está ligado al mundo espiritual y deberá enfrentar poderosos enemigos para proteger a los vivos y a los muertos.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+      
+      {
+      "titulo": "Bleach Thousand Years Of Blood",
+      "imagen": "img/bleach_tyob_portada.jpg",
+      "fondo": "img/bleach_tyob_fondo.jpg",
+      "descripcion": "El equilibrio entre vivos y muertos se rompe cuando un enemigo olvidado regresa para reclamar venganza, obligando a Ichigo y la Sociedad de Almas a enfrentar su batalla final.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+    {
+      "titulo": "Blue Lock",
+      "imagen": "Blue_Lock_portada.jpg",
+      "fondo": "Blue_Lock_fondo.jpg",
+      "descripcion": "En un experimento despiadado llamado Blue Lock, los delanteros más talentosos de Japón compiten entre sí para forjar al atacante definitivo que llevará al país a la gloria.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+
+    {
+      "titulo": "Boku no Hero Academia",
+      "imagen": "img/boku no hero academia portada.jpg",
+      "fondo": "img/boku no hero academia fondo.jpg",
+      "descripcion": "Izuku Midoriya entra a la academia de héroes más prestigiosa mientras enfrenta villanos cada vez más peligrosos y el peso de un poder legendario.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+    {
+      "titulo": "Boku no Hero Academia Vigilantes",
+      "imagen": "img/boku no hero academia vigilantes portada.jpg",
+      "fondo": "img/boku no hero academia vigilantes fondo.jpg",
+      "descripcion": "En los rincones olvidados de la ciudad, vigilantes sin permiso arriesgan todo para mantener el orden en un mundo dominado por héroes oficiales y villanos despiadados.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+      
+      {
+      "titulo": "Chainsaw Man",
+      "imagen": "img/Chainsaw man portada.jpg",
+      "fondo": "img/Chainsaw man fondo.jpg",
+      "descripcion": "Entre sangre, demonios y traiciones, Denji lucha por sobrevivir mientras descubre que sus deseos más simples pueden ser los más peligrosos.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+      
+        {
+      "titulo": "Code Geass",
+      "imagen": "img/Code Geass portada.jpg",
+      "fondo": "img/Code Geass fondo.jpg",
+      "descripcion": "Con el poder del Geass en sus manos, Lelouch lidera una guerra estratégica donde cada movimiento puede cambiar el destino del mundo.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+        {
+      "titulo": "Cowboy Bebop",
+      "imagen": "img/cowboy bepop portada.jpg",
+      "fondo": "img/Cowboy Bebop fondo.jpg",
+      "descripcion": "Entre jazz, soledad y estrellas lejanas, la tripulación del Bebop enfrenta su destino en un universo que no perdona.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+        {
+      "titulo": "Cyberpunk: Edgerunners",
+      "imagen": "img/Cyberpunk Edgerunners portada.jpg",
+      "fondo": "img/Cyberpunk Edgerunners fondo.jpg",
+      "descripcion": "En Night City, donde el poder tiene precio y la ambición consume, un grupo de inadaptados lucha por dejar su marca antes de que el sistema los destruya.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+        {
+      "titulo": "Dan Da Dan",
+      "imagen": "img/Dan Da Dan portada.jpg",
+      "fondo": "img/Dan Da Dan fondo.jpg",
+      "descripcion": "ntre espíritus vengativos y amenazas alienígenas, Momo y Okarun descubren que lo paranormal apenas es el comienzo de algo mucho más grande.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+        {
+      "titulo": "Dororo",
+      "imagen": "img/Dororo portada.jpg",
+      "fondo": "img/Dororo fondo.jpg",
+      "descripcion": "Traicionado antes de vivir, Hyakkimaru enfrenta monstruos y su propio destino en un viaje marcado por sangre y redención.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+        {
+      "titulo": "Dr Stone",
+      "imagen": "img/dr stone portada.jpg",
+      "fondo": "img/dr stone fondo.jpg",
+      "descripcion": "En un mundo convertido en piedra, la inteligencia se convierte en el arma definitiva para devolverle la luz a la humanidad.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+        {
+      "titulo": "Dungeon Meshi",
+      "imagen": "img/dungeon meshi portada.jpg",
+      "fondo": "img/Dungeon Meshi fondo.jpg",
+      "descripcion": "Entre magia, dragones y recetas imposibles, la aventura continúa plato a plato en las profundidades del calabozo.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+    {
+      "titulo": "Fire Force",
+      "imagen": "img/fire force portada.jpg",
+      "fondo": "img/fire force fondo.jpg",
+      "descripcion": "Entre llamas sagradas y conspiraciones ocultas, Shinra combate el fuego mientras intenta convertirse en el héroe que salvará a la humanidad.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+         {
+      "titulo": "Frieren",
+      "imagen": "img/frieren portada.jpg",
+      "fondo": "img/frieren fondo.jpg",
+      "descripcion": "En un mundo ya salvado, Frieren descubre que las batallas más difíciles no son contra monstruos, sino contra el paso inevitable del tiempo.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+         {
+      "titulo": "Full Metal Alchemist",
+      "imagen": "img/fma portada.jpg",
+      "fondo": "img/fma fondo.jpg",
+      "descripcion": "En busca de la legendaria Piedra Filosofal, Edward y Alphonse enfrentan secretos oscuros que podrían destruir su mundo.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+         {
+      "titulo": "Full Metal Alchemist Brotherhood",
+      "imagen": "img/fmab portada.jpg",
+      "fondo": "img/fmab fondo.jpg",
+      "descripcion": "Mientras buscan redención, los Elric descubren una verdad capaz de cambiar el mundo y el significado mismo del sacrificio.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+
+        {
+      "titulo": "Attack on Titan",
+      "imagen": "img/snk portada.jpg",
+      "fondo": "img/snk fondo.jpg",
+      "descripcion": "La humanidad lucha por sobrevivir contra los titanes en un mundo devastado.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+      
+      
+      
+  {
+      "titulo": "Demon Slayer",
+      "imagen": "img/kny.jpg",
+      "descripcion": "Un joven espadachín lucha contra demonios para vengar a su familia y salvar a su hermana."
+  },
+ 
+  {
+    "titulo": "Jujutsu Kaisen",
+    "imagen": "img/JJK.jpg",
+    "descripcion": "Un estudiante de secundaria ingiere un objeto maldito y se ve atrapado en una batalla contra maldiciones y hechiceros."
+},
+{
+    "titulo": "Zoom 100",
+    "imagen": "img/Zoom 100.jpg",
+    "descripcion": "Un oficinista hastiado encuentra libertad en un apocalipsis zombi y crea su lista de deseos."
+},
+{
+    "titulo": "Vinland Saga",
+    "imagen": "img/Vinland.jpg",
+    "descripcion": "Thorfinn busca redención en un mundo brutal de vikingos y conquistas."
+},
+{
+    "titulo": "Made In Abyss",
+    "imagen": "img/Made in abyss.jpg",
+    "descripcion": "Una niña y su amigo androide exploran un abismo lleno de misterios y peligros."
+},
+{
+    "titulo": "Solo Leveling",
+    "imagen": "img/Solo Leveling.jpg",
+    "descripcion": "Un cazador débil obtiene un misterioso poder que lo vuelve imparable."
+},
+
+{
+    "titulo": "One Punch Man",
+    "imagen": "img/One punch man.jpg",
+    "descripcion": "Un héroe abrumadoramente fuerte busca emoción en un mundo de villanos débiles."
+},
+{
+    "titulo": "Mob Psycho 100",
+    "imagen": "img/Mob.jpg",
+    "descripcion": "Un psíquico con inmenso poder aprende a controlar sus emociones y habilidades."
+},
+{
+    "titulo": "Mashle",
+    "imagen": "img/Mashle.jpg",
+    "descripcion": "Sin magia en un mundo mágico, Mash usa su fuerza bruta para destacar."
+},
+{
+    "titulo": "Spy X Family",
+    "imagen": "img/Spy x Family.jpg",
+    "descripcion": "Un espía, una asesina y una telépata fingen ser familia para una misión."
+},
+
+{
+    "titulo": "Sakamoto Days",
+    "imagen": "img/Sakamoto Days.jpg",
+    "descripcion": "Un legendario asesino retirado ahora es un pacífico dueño de tienda, pero su pasado lo sigue persiguiendo."
+},
+
+{
+    "titulo": "Hells Paradise",
+    "imagen": "img/Hells paradise.jpg",
+    "descripcion": "Condenados a muerte buscan el elixir de la inmortalidad en una isla infernal."
+},
+{
+    "titulo": "Mushoku Tensei",
+    "imagen": "img/Mushoku Tensei.jpg",
+    "descripcion": "Un hombre renace en un mundo mágico para redimirse y encontrar propósito."
+},
+
+{
+    "titulo": "JoJo's Bizarre Adventure",
+    "imagen": "img/JoJo's Bizarre Adventure.jpg",
+    "descripcion": "Generaciones de la familia Joestar enfrentan enemigos con poderes sobrenaturales únicos."
+},
+{
+    "titulo": "Kaiju N8",
+    "imagen": "img/Kaiju no_8.jpg",
+    "descripcion": "Un limpiador de monstruos obtiene un poder kaiju y lucha para proteger Japón."
+},
+{
+    "titulo": "Tokyo Revengers",
+    "imagen": "img/Tokyo Revengers.jpg",
+    "descripcion": "Un joven viaja al pasado para cambiar el destino trágico de sus amigos."
+}
+
+
+]

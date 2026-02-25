@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ver Anime</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="banner">
+    <nav>
+      <ul>
+        <a href="home.html">
+          <img max width="400px" src="img/Logo/Shinku No Sekai Logo Horizontal.png" alt="Mundo Anime Logo" class="logo">
+        </a>
+        <li><a href="top.html">Animes</a></li>
+        <li><a href="peliculas.html">Películas</a></li>
+        <li><a href="login.html">Iniciar Sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="anime-details">
+      <!-- Aquí va el contenido del anime -->
+    </div>
+
+    <section>
+      <h2 style="margin-top: 40px;">Animes relacionados</h2>
+      <div id="animes-relacionados" class="anime-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <!-- Aquí van los relacionados -->
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const titulo = params.get("titulo");
+
+    fetch('animes.json')
+      .then(response => response.json())
+      .then(data => {
+        const anime = data.find(a => decodeURIComponent(a.titulo.toLowerCase()) === decodeURIComponent(titulo.toLowerCase()));
+        const details = document.getElementById('anime-details');
+
+        if (anime) {
+          details.innerHTML = `
+            <h1>${anime.titulo}</h1>
+            <img src="${anime.imagen}" alt="${anime.titulo}" style="max-width:300px;">
+            <p>${anime.descripcion}</p>
+            <button onclick="window.open('${anime.link || '#'}', '_blank')">Reproducir</button>
+          `;
+
+          // Mostrar 4 animes relacionados diferentes al actual
+          const relacionados = data.filter(a => a.titulo !== anime.titulo).slice(0, 4);
+          const container = document.getElementById('animes-relacionados');
+
+          relacionados.forEach(rel => {
+            const card = document.createElement('div');
+            card.style.width = '200px';
+            card.innerHTML = `
+              <img src="${rel.imagen}" alt="${rel.titulo}" style="width:100%; border-radius:8px;">
+              <h4>${rel.titulo}</h4>
+              <a href="ver.html?titulo=${encodeURIComponent(rel.titulo)}">
+                <button>Ver</button>
+              </a>
+            `;
+            container.appendChild(card);
+          });
+
+        } else {
+          details.innerHTML = "<p>Anime no encontrado.</p>";
+        }
+      });
+  </script>
+</body>
+</html>

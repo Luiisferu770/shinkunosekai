@@ -1,0 +1,447 @@
+/* =========================
+   1️⃣ RESET Y BASE GLOBAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000a23;
+    color: white;
+    overflow-x: hidden;
+}
+
+main {
+    padding-top: 90px; /* espacio para banner fijo */
+}
+
+footer {
+    background-color: #000a23;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* =========================
+   2️⃣ BANNER / HEADER
+========================= */
+html {
+    scroll-behavior: smooth;
+} 
+
+
+.banner {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 10, 35, 0.95);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    z-index: 1000;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+/* NAV DESKTOP */
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #FF00FF;
+}
+
+/* HAMBURGUESA */
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* =========================
+   3️⃣ CARRUSEL (HOME)
+========================= */
+
+.carousel-container {
+    width: 85%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-item {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.carousel-item img {
+    width: 60%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.carousel-text {
+    width: 35%;
+}
+
+.watch-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #FF00FF;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.watch-button:hover {
+    background: #00FFFF;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.7);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+
+/* =========================
+   4️⃣ GRID ANIMES (TOP / PELICULAS)
+========================= */
+
+.anime-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 40px;
+}
+
+
+
+/* =========================
+   FLIP CARD
+========================= */
+
+.flip-card {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    perspective: 1200px;
+
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 
+        opacity 0.8s ease,
+        transform 0.8s ease,
+        box-shadow 0.4s ease;
+
+    z-index: 1;
+}
+
+.flip-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Efecto Netflix */
+.flip-card:hover {
+    transform: translateY(0) scale(1.08);
+    z-index: 10;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+.flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s ease;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-inner.flip-mobile {
+    transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.flip-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flip-back {
+    transform: rotateY(180deg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.flip-back .overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.6)
+    );
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flip-back button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #ff00ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.flip-back button:hover {
+    background: #00ffff;
+    box-shadow: 0 0 15px #00ffff;
+}
+
+@keyframes zoomBg {
+    from { background-size: 100%; }
+    to { background-size: 120%; }
+}
+
+/* Hover PC */
+.flip-card:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+
+/* Tap móvil */
+.flip-inner.flip-mobile {
+    transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+/* Frente */
+
+.flip-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Parte trasera */
+
+.flip-back {
+    transform: rotateY(180deg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: zoomBg 18s infinite alternate ease-in-out;
+}
+
+/* Overlay oscuro elegante */
+
+.flip-back .overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.6)
+    );
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flip-back h3 {
+    margin-bottom: 10px;
+}
+
+.flip-back p {
+    font-size: 14px;
+}
+
+/* Botón */
+
+.flip-back button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #ff00ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.flip-back button:hover {
+    background: #00ffff;
+    box-shadow: 0 0 15px #00ffff;
+}
+
+/* Zoom cinematográfico */
+
+@keyframes zoomBg {
+    from { background-size: 100%; }
+    to { background-size: 120%; }
+}
+
+
+/* =========================
+   6️⃣ RESPONSIVE
+========================= */
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+
+    .carousel-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .carousel-text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .anime-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* Móvil */
+
+@media (max-width: 768px) {
+
+    /* Mostrar hamburguesa */
+    .menu-toggle {
+        display: block;
+    }
+
+    /* Ocultar menú normal */
+    .nav-menu {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        background: #000a23;
+        display: none;
+        padding: 25px 0;
+    }
+
+    .nav-menu.active {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    /* 2 cartas en móvil */
+    .anime-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+
+/* Móvil pequeño */
+
+@media (max-width: 480px) {
+
+    .logo {
+        max-width: 80px;
+    }
+
+    .carousel-item img {
+        height: 220px;
+    }
+
+    /* 1 carta en móviles muy pequeños */
+    .anime-container {
+        grid-template-columns: 1fr;
+    }
+
+}

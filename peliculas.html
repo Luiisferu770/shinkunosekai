@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Películas - Shinku No Sekai</title>
+  <link rel="icon" href="img/Logo/Shinku No Sekai icono.png" type="icono SNS">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <<header class="banner">
+
+    <!-- LOGO FUERA DEL NAV -->
+    <div class="logo-container">
+        <a href="home.html">
+            <img src="img/Logo/Shinku No Sekai Logo Horizontal.png" 
+                 alt="Shinku No Sekai Logo" 
+                 class="logo">
+        </a>
+    </div>
+
+    <!-- MENÚ -->
+    <nav class="nav-menu">
+        <ul>
+            <li><a href="top.html">Animes</a></li>
+            <li><a href="peliculas.html">Peliculas</a></li>
+            <li><a href="login.html">Iniciar Sesion</a></li>
+        </ul>
+    </nav>
+
+    <!-- HAMBURGUESA -->
+    <div class="menu-toggle">
+        ☰
+    </div>
+
+</header>
+    <h1>Bienvenido a Shinku No Sekai</h1>
+    <header>
+
+  <main>
+    <section class="top-list">
+      <h1>Películas</h1>
+      <div class="anime-container" id="peliculas-container">
+        <!-- Aquí se insertarán las películas desde peliculas.json -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Shinku No Sekai - Todos los derechos reservados</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      fetch('peliculas.json')
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById('peliculas-container');
+
+          data.forEach(pelicula => {
+            const div = document.createElement('div');
+            div.innerHTML = `
+              <img src="${pelicula.imagen}" alt="${pelicula.titulo}">
+              <h3>${pelicula.titulo}</h3>
+              <p>${pelicula.descripcion}</p>
+              <button onclick="window.location.href='ver-pelicula.html?titulo=${encodeURIComponent(pelicula.titulo)}'">Comenzar a ver</button>
+            `;
+            container.appendChild(div);
+          });
+        })
+        .catch(error => {
+          console.error('Error al cargar las películas:', error);
+        });
+    });
+  </script>
+</body>
+</html>

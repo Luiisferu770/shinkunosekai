@@ -1,0 +1,28 @@
+[
+    {
+      "titulo": "Suzume",
+      "imagen": "img/suzume.jpg",
+      "descripcion": "Una chica emprende un viaje para cerrar puertas misteriosas que desatan desastres."
+    },
+    {
+      "titulo": "Your name",
+      "imagen": "img/YOUR NAME.jpg",
+      "descripcion": "Dos jóvenes conectados por el destino intercambian cuerpos y desafían el tiempo."
+    },
+    {
+      "titulo": "El Jardín de las Palabras",
+      "imagen": "img/El jardin de las palabras.jpeg",
+      "descripcion": "Un encuentro bajo la lluvia une a un estudiante y una misteriosa mujer."
+    },
+    {
+      "titulo": "El tiempo contigo",
+      "imagen": "img/El tiempo contigo.jpeg",
+      "descripcion": "Un chico fugitivo descubre a una chica capaz de manipular el clima."
+    },
+    {
+      "titulo": "La Chica que Saltaba a Través del Tiempo",
+      "imagen": "img/La chica que saltaba a traves del tiempo.jpeg",
+      "descripcion": "Una estudiante obtiene el poder de viajar en el tiempo, pero cada salto tiene consecuencias."
+    }
+  ]
+  
