@@ -197,7 +197,42 @@
             {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
       ]
   },
-
+  
+  =// cambios en cel//
+  
+    {
+      "titulo": "Gachiakuta",
+      "imagen": "img/snk portada.jpg",
+      "fondo": "img/snk fondo.jpg",
+      "descripcion": "La humanidad lucha por sobrevivir contra los titanes en un mundo devastado.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+  
+    {
+      "titulo": "Gantz",
+      "imagen": "img/snk portada.jpg",
+      "fondo": "img/snk fondo.jpg",
+      "descripcion": "La humanidad lucha por sobrevivir contra los titanes en un mundo devastado.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+  
+    {
+      "titulo": "Gintama",
+      "imagen": "img/snk portada.jpg",
+      "fondo": "img/snk fondo.jpg",
+      "descripcion": "La humanidad lucha por sobrevivir contra los titanes en un mundo devastado.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+ // hasta aqui//
 
         {
       "titulo": "Attack on Titan",
