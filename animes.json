@@ -1,5 +1,71 @@
 [
   {
+      "titulo": "Another",
+      "imagen": "img/Another portada.jpg",
+      "fondo": "img/Another fondo.jpg",
+      "descripcion": "Cuando el pasado se niega a quedar enterrado, cada día de clases se convierte en una cuenta regresiva donde cualquiera puede ser la próxima víctima.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+     {
+      "titulo": "Akame ga Kill",
+      "imagen": "img/Akame Ga Kill portada.jpg",
+      "fondo": "img/akame ga kill fondo.jpg",
+      "descripcion": "En una guerra donde cada misión puede ser la última, los miembros de Night Raid enfrentan un sistema podrido sabiendo que el precio de la revolución siempre se paga con sangre.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+  
+  {
+      "titulo": "Ao no Exorcist",
+      "imagen": "img/ao no exorcist portada.jpg",
+      "fondo": "img/Assassination Classroom fondo.jpg",
+      "descripcion": "Dividido entre la sangre demoníaca que corre por sus venas y su deseo de proteger a la humanidad, Rin deberá enfrentarse a fuerzas que amenazan ambos mundos.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+  {
+      "titulo": "Assassination Classroom",
+      "imagen": "img/Assassination Classroom portada.jpg",
+      "fondo": "img/snk fondo.jpg",
+      "descripcion": "Bajo métodos poco convencionales y lecciones inesperadas, los alumnos descubren que su extraño profesor podría ser la clave para cambiar sus vidas para siempre.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+  {
+      "titulo": "Avatar: The Legend of Aang",
+      "imagen": "img/Avatar The Last Airbender portada.jpg",
+      "fondo": "img/Avatar The Last Airbender fondo.jpg",
+      "descripcion": "Como el último Maestro Aire y el nuevo Avatar, Aang deberá aceptar su responsabilidad y enfrentar a una nación decidida a dominarlo todo.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+
+  {
+      "titulo": "Avatar: The Legend of Korra",
+      "imagen": "img/The Legend Of Korra portada.jpg",
+      "fondo": "img/The Legend Of Korra fondo.jpg",
+      "descripcion": "Korra deberá redefinir lo que significa ser el Avatar mientras enfrenta enemigos ideológicos que desafían el orden establecido.",
+      "episodios": [
+            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
+            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
+      ]
+  },
+  
+    {
 
         "titulo": "Black Clover",
       "imagen": "img/Black Clover Portada.jpg",
@@ -202,9 +268,9 @@
   
     {
       "titulo": "Gachiakuta",
-      "imagen": "img/snk portada.jpg",
-      "fondo": "img/snk fondo.jpg",
-      "descripcion": "La humanidad lucha por sobrevivir contra los titanes en un mundo devastado.",
+      "imagen": "img/Gachiakuta portada.jpg",
+      "fondo": "img/Gachiakuta fondo.jpg",
+      "descripcion": "En un mundo construido sobre la desigualdad y los desperdicios de la sociedad, la rabia y el poder oculto de Rudo se convierten en su única arma para reclamar justicia.",
       "episodios": [
             {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
             {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
@@ -213,9 +279,9 @@
   
     {
       "titulo": "Gantz",
-      "imagen": "img/snk portada.jpg",
-      "fondo": "img/snk fondo.jpg",
-      "descripcion": "La humanidad lucha por sobrevivir contra los titanes en un mundo devastado.",
+      "imagen": "img/Gantz portada.jpg",
+      "fondo": "img/Gantz fondo.jpg",
+      "descripcion": "En un juego sin reglas claras ni garantías de supervivencia, cada misión acerca a los participantes a la redención… o a una muerte aún más brutal.",
       "episodios": [
             {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
             {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
@@ -224,9 +290,9 @@
   
     {
       "titulo": "Gintama",
-      "imagen": "img/snk portada.jpg",
-      "fondo": "img/snk fondo.jpg",
-      "descripcion": "La humanidad lucha por sobrevivir contra los titanes en un mundo devastado.",
+      "imagen": "img/Gintama portada.jpg",
+      "fondo": "img/Gintama fondo.jpg",
+      "descripcion": "Entre comedia absurda y batallas inesperadamente intensas, Gintoki y sus compañeros enfrentan conspiraciones que podrían cambiar el destino de su nación.",
       "episodios": [
             {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
             {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
