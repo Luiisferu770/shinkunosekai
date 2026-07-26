@@ -1,403 +1,902 @@
 [
   {
-      "titulo": "Another",
-      "imagen": "img/Another portada.jpg",
-      "fondo": "img/Another fondo.jpg",
-      "descripcion": "Cuando el pasado se niega a quedar enterrado, cada día de clases se convierte en una cuenta regresiva donde cualquiera puede ser la próxima víctima.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
+    "titulo": "Akame ga Kill",
+    "imagen": "img/Akame Ga Kill portada.webp",
+    "fondo": "img/akame ga kill fondo.webp",
+    "descripcion": "En una guerra donde cada misión puede ser la última, los miembros de Night Raid enfrentan un sistema podrido sabiendo que el precio de la revolución siempre se paga con sangre."
   },
-
-     {
-      "titulo": "Akame ga Kill",
-      "imagen": "img/Akame Ga Kill portada.jpg",
-      "fondo": "img/akame ga kill fondo.jpg",
-      "descripcion": "En una guerra donde cada misión puede ser la última, los miembros de Night Raid enfrentan un sistema podrido sabiendo que el precio de la revolución siempre se paga con sangre.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-  
   {
-      "titulo": "Ao no Exorcist",
-      "imagen": "img/ao no exorcist portada.jpg",
-      "fondo": "img/Assassination Classroom fondo.jpg",
-      "descripcion": "Dividido entre la sangre demoníaca que corre por sus venas y su deseo de proteger a la humanidad, Rin deberá enfrentarse a fuerzas que amenazan ambos mundos.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
+    "titulo": "Another",
+    "imagen": "img/Another portada.webp",
+    "fondo": "img/Another fondo.webp",
+    "descripcion": "Cuando el pasado se niega a quedar enterrado, cada día de clases se convierte en una cuenta regresiva donde cualquiera puede ser la próxima víctima."
   },
-
   {
-      "titulo": "Assassination Classroom",
-      "imagen": "img/Assassination Classroom portada.jpg",
-      "fondo": "img/snk fondo.jpg",
-      "descripcion": "Bajo métodos poco convencionales y lecciones inesperadas, los alumnos descubren que su extraño profesor podría ser la clave para cambiar sus vidas para siempre.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
+    "titulo": "Ao no Exorcist",
+    "imagen": "img/ao no exorcist portada.webp",
+    "fondo": "img/ao no exorcist fondo.webp",
+    "descripcion": "Dividido entre la sangre demoníaca que corre por sus venas y su deseo de proteger a la humanidad, Rin deberá enfrentarse a fuerzas que amenazan ambos mundos."
   },
-
   {
-      "titulo": "Avatar: The Legend of Aang",
-      "imagen": "img/Avatar The Last Airbender portada.jpg",
-      "fondo": "img/Avatar The Last Airbender fondo.jpg",
-      "descripcion": "Como el último Maestro Aire y el nuevo Avatar, Aang deberá aceptar su responsabilidad y enfrentar a una nación decidida a dominarlo todo.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
+    "titulo": "Assassination Classroom",
+    "imagen": "img/Assassination Classroom portada.webp",
+    "fondo": "img/Assassination Classroom fondo.webp",
+    "descripcion": "Bajo métodos poco convencionales y lecciones inesperadas, los alumnos descubren que su extraño profesor podría ser la clave para cambiar sus vidas para siempre."
   },
-
   {
-      "titulo": "Avatar: The Legend of Korra",
-      "imagen": "img/The Legend Of Korra portada.jpg",
-      "fondo": "img/The Legend Of Korra fondo.jpg",
-      "descripcion": "Korra deberá redefinir lo que significa ser el Avatar mientras enfrenta enemigos ideológicos que desafían el orden establecido.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
+    "titulo": "Attack on Titan",
+    "imagen": "img/snk portada.webp",
+    "fondo": "img/snk fondo.webp",
+    "descripcion": "La humanidad lucha por sobrevivir contra los titanes en un mundo devastado."
   },
-  
-    {
-
-        "titulo": "Black Clover",
-      "imagen": "img/Black Clover Portada.jpg",
-      "fondo": "img/Black clover Fondo.jpg",
-      "descripcion": "Asta, nacido sin magia en un reino gobernado por ella, desafía las reglas del mundo mientras enfrenta demonios, rivales y una guerra que amenaza con destruirlo todo.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]},
-
-      {
-      "titulo": "Bleach",
-      "imagen": "img/Bleach_portada.jpg",
-      "fondo": "img/Bleach fondo.jpg",
-      "descripcion": "Ichigo Kurosaki descubre que su destino está ligado al mundo espiritual y deberá enfrentar poderosos enemigos para proteger a los vivos y a los muertos.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-      
-      {
-      "titulo": "Bleach Thousand Years Of Blood",
-      "imagen": "img/bleach_tyob_portada.jpg",
-      "fondo": "img/bleach_tyob_fondo.jpg",
-      "descripcion": "El equilibrio entre vivos y muertos se rompe cuando un enemigo olvidado regresa para reclamar venganza, obligando a Ichigo y la Sociedad de Almas a enfrentar su batalla final.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-    {
-      "titulo": "Blue Lock",
-      "imagen": "Blue_Lock_portada.jpg",
-      "fondo": "Blue_Lock_fondo.jpg",
-      "descripcion": "En un experimento despiadado llamado Blue Lock, los delanteros más talentosos de Japón compiten entre sí para forjar al atacante definitivo que llevará al país a la gloria.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-
-    {
-      "titulo": "Boku no Hero Academia",
-      "imagen": "img/boku no hero academia portada.jpg",
-      "fondo": "img/boku no hero academia fondo.jpg",
-      "descripcion": "Izuku Midoriya entra a la academia de héroes más prestigiosa mientras enfrenta villanos cada vez más peligrosos y el peso de un poder legendario.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-    {
-      "titulo": "Boku no Hero Academia Vigilantes",
-      "imagen": "img/boku no hero academia vigilantes portada.jpg",
-      "fondo": "img/boku no hero academia vigilantes fondo.jpg",
-      "descripcion": "En los rincones olvidados de la ciudad, vigilantes sin permiso arriesgan todo para mantener el orden en un mundo dominado por héroes oficiales y villanos despiadados.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-      
-      {
-      "titulo": "Chainsaw Man",
-      "imagen": "img/Chainsaw man portada.jpg",
-      "fondo": "img/Chainsaw man fondo.jpg",
-      "descripcion": "Entre sangre, demonios y traiciones, Denji lucha por sobrevivir mientras descubre que sus deseos más simples pueden ser los más peligrosos.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-      
-        {
-      "titulo": "Code Geass",
-      "imagen": "img/Code Geass portada.jpg",
-      "fondo": "img/Code Geass fondo.jpg",
-      "descripcion": "Con el poder del Geass en sus manos, Lelouch lidera una guerra estratégica donde cada movimiento puede cambiar el destino del mundo.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-        {
-      "titulo": "Cowboy Bebop",
-      "imagen": "img/cowboy bepop portada.jpg",
-      "fondo": "img/Cowboy Bebop fondo.jpg",
-      "descripcion": "Entre jazz, soledad y estrellas lejanas, la tripulación del Bebop enfrenta su destino en un universo que no perdona.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-        {
-      "titulo": "Cyberpunk: Edgerunners",
-      "imagen": "img/Cyberpunk Edgerunners portada.jpg",
-      "fondo": "img/Cyberpunk Edgerunners fondo.jpg",
-      "descripcion": "En Night City, donde el poder tiene precio y la ambición consume, un grupo de inadaptados lucha por dejar su marca antes de que el sistema los destruya.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-        {
-      "titulo": "Dan Da Dan",
-      "imagen": "img/Dan Da Dan portada.jpg",
-      "fondo": "img/Dan Da Dan fondo.jpg",
-      "descripcion": "ntre espíritus vengativos y amenazas alienígenas, Momo y Okarun descubren que lo paranormal apenas es el comienzo de algo mucho más grande.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-        {
-      "titulo": "Dororo",
-      "imagen": "img/Dororo portada.jpg",
-      "fondo": "img/Dororo fondo.jpg",
-      "descripcion": "Traicionado antes de vivir, Hyakkimaru enfrenta monstruos y su propio destino en un viaje marcado por sangre y redención.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-        {
-      "titulo": "Dr Stone",
-      "imagen": "img/dr stone portada.jpg",
-      "fondo": "img/dr stone fondo.jpg",
-      "descripcion": "En un mundo convertido en piedra, la inteligencia se convierte en el arma definitiva para devolverle la luz a la humanidad.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-        {
-      "titulo": "Dungeon Meshi",
-      "imagen": "img/dungeon meshi portada.jpg",
-      "fondo": "img/Dungeon Meshi fondo.jpg",
-      "descripcion": "Entre magia, dragones y recetas imposibles, la aventura continúa plato a plato en las profundidades del calabozo.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-    {
-      "titulo": "Fire Force",
-      "imagen": "img/fire force portada.jpg",
-      "fondo": "img/fire force fondo.jpg",
-      "descripcion": "Entre llamas sagradas y conspiraciones ocultas, Shinra combate el fuego mientras intenta convertirse en el héroe que salvará a la humanidad.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-         {
-      "titulo": "Frieren",
-      "imagen": "img/frieren portada.jpg",
-      "fondo": "img/frieren fondo.jpg",
-      "descripcion": "En un mundo ya salvado, Frieren descubre que las batallas más difíciles no son contra monstruos, sino contra el paso inevitable del tiempo.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-         {
-      "titulo": "Full Metal Alchemist",
-      "imagen": "img/fma portada.jpg",
-      "fondo": "img/fma fondo.jpg",
-      "descripcion": "En busca de la legendaria Piedra Filosofal, Edward y Alphonse enfrentan secretos oscuros que podrían destruir su mundo.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-
-         {
-      "titulo": "Full Metal Alchemist Brotherhood",
-      "imagen": "img/fmab portada.jpg",
-      "fondo": "img/fmab fondo.jpg",
-      "descripcion": "Mientras buscan redención, los Elric descubren una verdad capaz de cambiar el mundo y el significado mismo del sacrificio.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-  
-  
-  
-    {
-      "titulo": "Gachiakuta",
-      "imagen": "img/Gachiakuta portada.jpg",
-      "fondo": "img/Gachiakuta fondo.jpg",
-      "descripcion": "En un mundo construido sobre la desigualdad y los desperdicios de la sociedad, la rabia y el poder oculto de Rudo se convierten en su única arma para reclamar justicia.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-  
-    {
-      "titulo": "Gantz",
-      "imagen": "img/Gantz portada.jpg",
-      "fondo": "img/Gantz fondo.jpg",
-      "descripcion": "En un juego sin reglas claras ni garantías de supervivencia, cada misión acerca a los participantes a la redención… o a una muerte aún más brutal.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-  
-    {
-      "titulo": "Gintama",
-      "imagen": "img/Gintama portada.jpg",
-      "fondo": "img/Gintama fondo.jpg",
-      "descripcion": "Entre comedia absurda y batallas inesperadamente intensas, Gintoki y sus compañeros enfrentan conspiraciones que podrían cambiar el destino de su nación.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
- 
-
-        {
-      "titulo": "Attack on Titan",
-      "imagen": "img/snk portada.jpg",
-      "fondo": "img/snk fondo.jpg",
-      "descripcion": "La humanidad lucha por sobrevivir contra los titanes en un mundo devastado.",
-      "episodios": [
-            {"numero": 1, "titulo": "A mi lado", "descripcion": "Eren y su equipo enfrentan a los titanes en Shiganshina."},
-            {"numero": 2, "titulo": "La última esperanza", "descripcion": "Armin planea una estrategia para cerrar la muralla."}
-      ]
-  },
-      
-      
-      
   {
-      "titulo": "Demon Slayer",
-      "imagen": "img/kny.jpg",
-      "descripcion": "Un joven espadachín lucha contra demonios para vengar a su familia y salvar a su hermana."
+    "titulo": "Avatar: The Legend of Aang",
+    "imagen": "img/Avatar The Last Airbender portada.webp",
+    "fondo": "img/Avatar The Last Airbender fondo.webp",
+    "descripcion": "Como el último Maestro Aire y el nuevo Avatar, Aang deberá aceptar su responsabilidad y enfrentar a una nación decidida a dominarlo todo."
   },
- 
+  {
+    "titulo": "Avatar: The Legend of Korra",
+    "imagen": "img/The Legend Of Korra portada.webp",
+    "fondo": "img/The Legend Of Korra fondo.webp",
+    "descripcion": "Korra deberá redefinir lo que significa ser el Avatar mientras enfrenta enemigos ideológicos que desafían el orden establecido."
+  },
+  {
+    "titulo": "Baki",
+    "imagen": "img/Baki portada.webp",
+    "fondo": "img/Baki fondo.webp",
+    "descripcion": "Forjado por un padre que es la encarnación misma de la fuerza, Baki entrena cada día para alcanzar un poder capaz de igualarlo, sin importar el costo."
+  },
+  {
+    "titulo": "Beastars",
+    "imagen": "img/Beastars portada.webp",
+    "fondo": "img/Beastars fondo.webp",
+    "descripcion": "En una sociedad donde herbívoros y carnívoros conviven bajo una paz frágil, Legoshi deberá enfrentar sus propios instintos para descubrir quién es realmente."
+  },
+  {
+    "titulo": "Berserk",
+    "imagen": "img/Berserk portada.webp",
+    "fondo": "img/Berserk fondo.webp",
+    "descripcion": "Marcado a fuego por un destino maldito, Guts atraviesa un mundo de demonios y traiciones armado solo con su espada y una voluntad que se niega a quebrarse."
+  },
+  {
+    "titulo": "Black Clover",
+    "imagen": "img/Black Clover Portada.webp",
+    "fondo": "img/Black clover Fondo.webp",
+    "descripcion": "Asta, nacido sin magia en un reino gobernado por ella, desafía las reglas del mundo mientras enfrenta demonios, rivales y una guerra que amenaza con destruirlo todo."
+  },
+  {
+    "titulo": "Bleach",
+    "imagen": "img/Bleach portada.webp",
+    "fondo": "img/Bleach fondo.webp",
+    "descripcion": "Ichigo Kurosaki descubre que su destino está ligado al mundo espiritual y deberá enfrentar poderosos enemigos para proteger a los vivos y a los muertos."
+  },
+  {
+    "titulo": "Bleach Thousand Years Of Blood",
+    "imagen": "img/bleach tyob portada.webp",
+    "fondo": "img/bleach_tyob_fondo.webp",
+    "descripcion": "El equilibrio entre vivos y muertos se rompe cuando un enemigo olvidado regresa para reclamar venganza, obligando a Ichigo y la Sociedad de Almas a enfrentar su batalla final."
+  },
+  {
+    "titulo": "Blood+",
+    "imagen": "img/Blood+ portada.webp",
+    "fondo": "img/Blood+ fondo.webp",
+    "descripcion": "Despertando sin memoria y con una sed que no comprende, Saya deberá enfrentar criaturas ancestrales para descubrir el origen de su propia naturaleza."
+  },
+  {
+    "titulo": "Blood-C",
+    "imagen": "img/Blood-C portada.webp",
+    "fondo": "img/Blood-C fondo.webp",
+    "descripcion": "De día una estudiante común, de noche una cazadora de monstruos: Saya descubre que la verdad detrás de su misión es mucho más oscura de lo que imaginaba."
+  },
+  {
+    "titulo": "Blue Lock",
+    "imagen": "img/Blue Lock portada.webp",
+    "fondo": "img/Blue Lock fondo.webp",
+    "descripcion": "En un experimento despiadado llamado Blue Lock, los delanteros más talentosos de Japón compiten entre sí para forjar al atacante definitivo que llevará al país a la gloria."
+  },
+  {
+    "titulo": "Blue Eye Samurai",
+    "imagen": "img/Blue Eye Samurai portada.webp",
+    "fondo": "img/Blue Eye Samurai fondo.webp",
+    "descripcion": "Marcada por su sangre mixta en el Japón feudal, Mizu se disfraza de hombre para ejecutar una venganza cuidadosamente planeada contra los cuatro forasteros responsables de su origen prohibido."
+  },
+  {
+    "titulo": "Boku no Hero Academia",
+    "imagen": "img/boku no hero academia portada.webp",
+    "fondo": "img/boku no hero academia fondo.webp",
+    "descripcion": "Izuku Midoriya entra a la academia de héroes más prestigiosa mientras enfrenta villanos cada vez más peligrosos y el peso de un poder legendario."
+  },
+  {
+    "titulo": "Boku no Hero Academia Vigilantes",
+    "imagen": "img/boku no hero academia vigilantes portada.webp",
+    "fondo": "img/boku no hero academia vigilantes fondo.webp",
+    "descripcion": "En los rincones olvidados de la ciudad, vigilantes sin permiso arriesgan todo para mantener el orden en un mundo dominado por héroes oficiales y villanos despiadados."
+  },
+  {
+    "titulo": "Boruto",
+    "imagen": "img/Boruto portada.webp",
+    "fondo": "img/Boruto fondo.webp",
+    "descripcion": "En una nueva era de paz que desconoce el horror de la guerra, Boruto Uzumaki busca forjar su propio camino como ninja, viviendo bajo la sombra de su padre y enfrentando amenazas de un poder inesperado."
+  },
+  {
+    "titulo": "Captain Tsubasa",
+    "imagen": "img/Captain Tsubasa portada.webp",
+    "fondo": "img/Captain Tsubasa fondo.webp",
+    "descripcion": "Con un balón como compañero inseparable, Tsubasa persigue el sueño de llevar a Japón a la cima del fútbol mundial, partido a partido."
+  },
+  {
+    "titulo": "Castlevania",
+    "imagen": "img/Castlevania portada.webp",
+    "fondo": "img/Castlevania fondo.webp",
+    "descripcion": "Con el reino condenado por la ira de un vampiro, Trevor Belmont se une a una hechicera y al hijo mestizo de Drácula para enfrentar un ejército de demonios y salvar lo que queda de la humanidad."
+  },
+  {
+    "titulo": "Castlevania: Nocturne",
+    "imagen": "img/Castlevania Nocturne portada.webp",
+    "fondo": "img/Castlevania Nocturne fondo.webp",
+    "descripcion": "En la Francia revolucionaria, un joven Belmont sin sus poderes ancestrales deberá aliarse con una hechicera rebelde para enfrentar a un vampiro que planea sumir al mundo en la oscuridad."
+  },
+  {
+    "titulo": "Chainsaw Man",
+    "imagen": "img/Chainsaw man portada.webp",
+    "fondo": "img/Chainsaw man fondo.webp",
+    "descripcion": "Entre sangre, demonios y traiciones, Denji lucha por sobrevivir mientras descubre que sus deseos más simples pueden ser los más peligrosos."
+  },
+  {
+    "titulo": "Clevatess",
+    "imagen": "img/Clevatess portada.webp",
+    "fondo": "img/Clevatess fondo.webp",
+    "descripcion": "Un poderoso Rey Demonio despierta tras un largo sueño para encontrar su ejército destruido y su reino en ruinas, obligándolo a reconstruir su poder mientras enfrenta un mundo que ha cambiado por completo."
+  },
+  {
+    "titulo": "Code Geass",
+    "imagen": "img/Code Geass portada.webp",
+    "fondo": "img/Code Geass fondo.webp",
+    "descripcion": "Con el poder del Geass en sus manos, Lelouch lidera una guerra estratégica donde cada movimiento puede cambiar el destino del mundo."
+  },
+  {
+    "titulo": "Cowboy Bebop",
+    "imagen": "img/cowboy bepop portada.webp",
+    "fondo": "img/Cowboy Bebop fondo.webp",
+    "descripcion": "Entre jazz, soledad y estrellas lejanas, la tripulación del Bebop enfrenta su destino en un universo que no perdona."
+  },
+  {
+    "titulo": "Cyberpunk: Edgerunners",
+    "imagen": "img/Cyberpunk Edgerunners portada.webp",
+    "fondo": "img/Cyberpunk Edgerunners fondo.webp",
+    "descripcion": "En Night City, donde el poder tiene precio y la ambición consume, un grupo de inadaptados lucha por dejar su marca antes de que el sistema los destruya."
+  },
+  {
+    "titulo": "Dan Da Dan",
+    "imagen": "img/Dan Da Dan portada.webp",
+    "fondo": "img/Dan Da Dan fondo.webp",
+    "descripcion": "Entre espíritus vengativos y amenazas alienígenas, Momo y Okarun descubren que lo paranormal apenas es el comienzo de algo mucho más grande."
+  },
+  {
+    "titulo": "Death Note",
+    "imagen": "img/Death Note portada.webp",
+    "fondo": "img/Death Note fondo.webp",
+    "descripcion": "Con el poder de matar con solo escribir un nombre, Light Yagami inicia un juego mental contra el detective más brillante del mundo, donde cada movimiento puede ser el último."
+  },
+  {
+    "titulo": "Demon Slayer",
+    "imagen": "img/Demon Slayer portada.webp",
+    "fondo": "img/Demon Slayer fondo.webp",
+    "descripcion": "Un joven espadachín lucha contra demonios para vengar a su familia y salvar a su hermana."
+  },
+  {
+    "titulo": "Devil May Cry",
+    "imagen": "img/Devil May Cry portada.webp",
+    "fondo": "img/Devil May Cry fondo.webp",
+    "descripcion": "Mitad demonio, mitad humano, Dante caza criaturas infernales con estilo y sarcasmo, mientras una conspiración oscura amenaza con desenterrar su propio pasado."
+  },
+  {
+    "titulo": "Digimon",
+    "imagen": "img/Digimon portada.webp",
+    "fondo": "img/Digimon fondo.webp",
+    "descripcion": "Transportados a un mundo digital desconocido, un grupo de niños forma un vínculo único con criaturas capaces de evolucionar, enfrentando amenazas que ponen en riesgo ambos mundos."
+  },
+  {
+    "titulo": "Dorohedoro",
+    "imagen": "img/Dorohedoro portada.webp",
+    "fondo": "img/Dorohedoro fondo.webp",
+    "descripcion": "En una ciudad envenenada por la magia, Caiman busca recuperar su rostro humano enfrentando hechiceros despiadados en un mundo donde nada es lo que parece."
+  },
+  {
+    "titulo": "Dororo",
+    "imagen": "img/Dororo portada.webp",
+    "fondo": "img/Dororo fondo.webp",
+    "descripcion": "Traicionado antes de vivir, Hyakkimaru enfrenta monstruos y su propio destino en un viaje marcado por sangre y redención."
+  },
+  {
+    "titulo": "Dr Stone",
+    "imagen": "img/dr stone portada.webp",
+    "fondo": "img/dr stone fondo.webp",
+    "descripcion": "En un mundo convertido en piedra, la inteligencia se convierte en el arma definitiva para devolverle la luz a la humanidad."
+  },
+  {
+    "titulo": "Dragon Ball",
+    "imagen": "img/Dragon Ball portada.webp",
+    "fondo": "img/Dragon Ball fondo.webp",
+    "descripcion": "Desde la búsqueda de las esferas del dragón hasta batallas que desafían los límites del poder, Goku nunca deja de superarse a sí mismo."
+  },
+  {
+    "titulo": "Dragon Ball Daima",
+    "imagen": "img/Dragon Ball Daima portada.webp",
+    "fondo": "img/Dragon Ball Daima fondo.webp",
+    "descripcion": "Transformado misteriosamente en niño junto a sus aliados, Goku deberá viajar a un mundo desconocido para descubrir quién es el responsable y revertir una maldición que amenaza con dejarlos así para siempre."
+  },
+  {
+    "titulo": "Dragon Ball GT",
+    "imagen": "img/Dragon Ball GT portada.webp",
+    "fondo": "img/Dragon Ball GT fondo.webp",
+    "descripcion": "Reducido a niño por un deseo fallido, Goku emprende un nuevo viaje espacial en busca de las esferas del dragón, enfrentando enemigos que amenazan con destruir la galaxia entera."
+  },
+  {
+    "titulo": "Dragon Ball Super",
+    "imagen": "img/Dragon Ball Super portada.webp",
+    "fondo": "img/Dragon Ball Super fondo.webp",
+    "descripcion": "Con el multiverso entero en juego, Goku y sus aliados se enfrentan a dioses de la destrucción y guerreros de otros universos en el Torneo del Poder, donde la existencia misma está en la balanza."
+  },
+  {
+    "titulo": "Dragon Ball Z",
+    "imagen": "img/Dragon Ball Z portada.webp",
+    "fondo": "img/Dragon Ball Z fondo.webp",
+    "descripcion": "Convertido ya en un guerrero legendario, Goku enfrenta amenazas que ponen en peligro a todo el universo, mientras transformaciones cada vez más poderosas redefinen lo que significa ser un Saiyajin."
+  },
+  {
+    "titulo": "Dungeon Meshi",
+    "imagen": "img/dungeon meshi portada.webp",
+    "fondo": "img/Dungeon Meshi fondo.webp",
+    "descripcion": "Entre magia, dragones y recetas imposibles, la aventura continúa plato a plato en las profundidades del calabozo."
+  },
+  {
+    "titulo": "Elfen Lied",
+    "imagen": "img/Elfen Lied portada.webp",
+    "fondo": "img/Elfen Lied fondo.webp",
+    "descripcion": "Perseguida por el ejército y atrapada entre dos identidades, Lucy desata una violencia imparable cada vez que su humanidad se resquebraja."
+  },
+  {
+    "titulo": "Erased",
+    "imagen": "img/Erased portada.webp",
+    "fondo": "img/Erased fondo.webp",
+    "descripcion": "Dotado con la habilidad de retroceder en el tiempo antes de una tragedia, Satoru es enviado 18 años atrás para evitar el secuestro que marcó su infancia y salvar a quienes más quiere."
+  },
+  {
+    "titulo": "Excel Saga",
+    "imagen": "img/Excel Saga portada.webp",
+    "fondo": "img/Excel Saga fondo.webp",
+    "descripcion": "Entre el caos absurdo y la comedia desquiciada, Excel se entrega en cuerpo y alma a una organización que busca, sin mucho éxito, conquistar el mundo."
+  },
+  {
+    "titulo": "Fairy Tail",
+    "imagen": "img/Fairy Tail portada.webp",
+    "fondo": "img/Fairy Tail fondo.webp",
+    "descripcion": "En el gremio mágico más unido de Fiore, Natsu y sus compañeros enfrentan enemigos cada vez más poderosos sin perder jamás los lazos que los hacen una familia."
+  },
+  {
+    "titulo": "Fate/Apocrypha",
+    "imagen": "img/Fate Apocrypha portada.webp",
+    "fondo": "img/Fate Apocrypha fondo.webp",
+    "descripcion": "Dividida en dos facciones enfrentadas, una Gran Guerra del Santo Grial reúne el doble de Servants de lo habitual en una batalla descomunal por el objeto capaz de conceder cualquier deseo."
+  },
+  {
+    "titulo": "Fate/stay night: Unlimited Blade Works",
+    "imagen": "img/Fate stay night Unlimited Blade Works portada.webp",
+    "fondo": "img/Fate stay night Unlimited Blade Works fondo.webp",
+    "descripcion": "Arrastrado a una nueva Guerra del Santo Grial, Shirou invoca al misterioso Servant Archer, descubriendo secretos sobre el ideal de héroe que siempre soñó ser."
+  },
+  {
+    "titulo": "Fate/Zero",
+    "imagen": "img/Fate Zero portada.webp",
+    "fondo": "img/Fate Zero fondo.webp",
+    "descripcion": "Una década antes de los eventos conocidos, siete magos invocan a sus Servants legendarios en una guerra despiadada por el Santo Grial, donde la moral se pone a prueba en cada alianza y traición."
+  },
+  {
+    "titulo": "Fire Force",
+    "imagen": "img/fire force portada.webp",
+    "fondo": "img/fire force fondo.webp",
+    "descripcion": "Entre llamas sagradas y conspiraciones ocultas, Shinra combate el fuego mientras intenta convertirse en el héroe que salvará a la humanidad."
+  },
+  {
+    "titulo": "Four Knights of the Apocalypse",
+    "imagen": "img/Four Knights of the Apocalypse portada.webp",
+    "fondo": "img/Four Knights of the Apocalypse fondo.webp",
+    "descripcion": "Marcado como uno de los Cuatro Caballeros del Apocalipsis, Percival abandona su hogar en busca de respuestas, adentrándose en un reino de magia y profecías donde su destino podría significar la salvación o la destrucción del mundo."
+  },
+  {
+    "titulo": "Frieren",
+    "imagen": "img/frieren portada.webp",
+    "fondo": "img/frieren fondo.webp",
+    "descripcion": "En un mundo ya salvado, Frieren descubre que las batallas más difíciles no son contra monstruos, sino contra el paso inevitable del tiempo."
+  },
+  {
+    "titulo": "Full Metal Alchemist",
+    "imagen": "img/fma portada.webp",
+    "fondo": "img/fma fondo.webp",
+    "descripcion": "En busca de la legendaria Piedra Filosofal, Edward y Alphonse enfrentan secretos oscuros que podrían destruir su mundo."
+  },
+  {
+    "titulo": "Full Metal Alchemist Brotherhood",
+    "imagen": "img/fmab portada.webp",
+    "fondo": "img/fmab fondo.webp",
+    "descripcion": "Mientras buscan redención, los Elric descubren una verdad capaz de cambiar el mundo y el significado mismo del sacrificio."
+  },
+  {
+    "titulo": "Gachiakuta",
+    "imagen": "img/Gachiakuta portada.webp",
+    "fondo": "img/Gachiakuta fondo.webp",
+    "descripcion": "En un mundo construido sobre la desigualdad y los desperdicios de la sociedad, la rabia y el poder oculto de Rudo se convierten en su única arma para reclamar justicia."
+  },
+  {
+    "titulo": "Gantz",
+    "imagen": "img/Gantz portada.webp",
+    "fondo": "img/Gantz fondo.webp",
+    "descripcion": "En un juego sin reglas claras ni garantías de supervivencia, cada misión acerca a los participantes a la redención… o a una muerte aún más brutal."
+  },
+  {
+    "titulo": "Gintama",
+    "imagen": "img/Gintama portada.webp",
+    "fondo": "img/Gintama fondo.webp",
+    "descripcion": "Entre comedia absurda y batallas inesperadamente intensas, Gintoki y sus compañeros enfrentan conspiraciones que podrían cambiar el destino de su nación."
+  },
+  {
+    "titulo": "Gurren Lagann",
+    "imagen": "img/Gurren Lagann portada.webp",
+    "fondo": "img/Gurren Lagann fondo.webp",
+    "descripcion": "Desde las profundidades de la tierra hasta las estrellas, Simon aprende que ningún destino está escrito si se tiene la voluntad de perforar los cielos."
+  },
+  {
+    "titulo": "Haikyu!!",
+    "imagen": "img/Haikyu portada.webp",
+    "fondo": "img/Haikyu fondo.webp",
+    "descripcion": "Pequeño en estatura pero gigante en espíritu, Hinata se propone dominar el voleibol y demostrar que ningún obstáculo es demasiado alto para saltar."
+  },
+  {
+    "titulo": "Hajime no Ippo",
+    "imagen": "img/Hajime no ippo portada.webp",
+    "fondo": "img/Hajime No ippo fondo.webp",
+    "descripcion": "Un joven bondadoso deja atrás los abusos para forjar su camino en el boxeo profesional, desafiando a los mejores pugilistas del país con un espíritu inquebrantable y un puño demoledor."
+  },
+  {
+    "titulo": "Hells Paradise",
+    "imagen": "img/Hells paradise portada.webp",
+    "fondo": "img/Hells paradise fondo.webp",
+    "descripcion": "Condenados a muerte buscan el elixir de la inmortalidad en una isla infernal."
+  },
+  {
+    "titulo": "Hellsing Ultimate",
+    "imagen": "img/Hellsing Ultimate portada.webp",
+    "fondo": "img/Hellsing Ultimate fondo.webp",
+    "descripcion": "Bajo las órdenes de la organización Hellsing, el vampiro Alucard caza criaturas de la noche con una violencia tan elegante como aterradora."
+  },
+  {
+    "titulo": "Hunter x Hunter",
+    "imagen": "img/Hunter x Hunter portada.webp",
+    "fondo": "img/Hunter x Hunter fondo.webp",
+    "descripcion": "En busca de su padre y de un propósito propio, Gon se adentra en un mundo de pruebas brutales donde la amistad y la ambición chocan constantemente."
+  },
+  {
+    "titulo": "Inuyasha",
+    "imagen": "img/Inuyasha portada.webp",
+    "fondo": "img/Inuyasha fondo.webp",
+    "descripcion": "Atrapada entre dos épocas, Kagome se une a un hanyou de carácter explosivo para reunir los fragmentos de una joya capaz de cambiar el destino de ambos mundos."
+  },
+  {
+    "titulo": "Inuyashiki",
+    "imagen": "img/Inuyashiki portada.webp",
+    "fondo": "img/Inuyashiki fondo.webp",
+    "descripcion": "Tras morir y ser reconstruido con tecnología alienígena, un anciano de aspecto frágil descubre un poder descomunal, mientras otro sobreviviente del mismo accidente decide usarlo para sembrar el caos."
+  },
+  {
+    "titulo": "Invincible",
+    "imagen": "img/Invincible portada.webp",
+    "fondo": "img/Invincible fondo.webp",
+    "descripcion": "Al heredar los poderes de su padre, el héroe más fuerte del planeta, Mark Grayson descubre una verdad brutal sobre su legado que pondrá en juego todo lo que creía saber sobre el heroísmo."
+  },
+  {
+    "titulo": "JoJo's Bizarre Adventure",
+    "imagen": "img/JoJo's Bizarre Adventure portada.webp",
+    "fondo": "img/jojo-fondo.webp",
+    "descripcion": "Generaciones de la familia Joestar enfrentan enemigos con poderes sobrenaturales únicos."
+  },
   {
     "titulo": "Jujutsu Kaisen",
-    "imagen": "img/JJK.jpg",
+    "imagen": "img/JJK portada.webp",
+    "fondo": "img/JJK fondo.webp",
     "descripcion": "Un estudiante de secundaria ingiere un objeto maldito y se ve atrapado en una batalla contra maldiciones y hechiceros."
-},
-{
-    "titulo": "Zoom 100",
-    "imagen": "img/Zoom 100.jpg",
-    "descripcion": "Un oficinista hastiado encuentra libertad en un apocalipsis zombi y crea su lista de deseos."
-},
-{
-    "titulo": "Vinland Saga",
-    "imagen": "img/Vinland.jpg",
-    "descripcion": "Thorfinn busca redención en un mundo brutal de vikingos y conquistas."
-},
-{
-    "titulo": "Made In Abyss",
-    "imagen": "img/Made in abyss.jpg",
-    "descripcion": "Una niña y su amigo androide exploran un abismo lleno de misterios y peligros."
-},
-{
-    "titulo": "Solo Leveling",
-    "imagen": "img/Solo Leveling.jpg",
-    "descripcion": "Un cazador débil obtiene un misterioso poder que lo vuelve imparable."
-},
-
-{
-    "titulo": "One Punch Man",
-    "imagen": "img/One punch man.jpg",
-    "descripcion": "Un héroe abrumadoramente fuerte busca emoción en un mundo de villanos débiles."
-},
-{
-    "titulo": "Mob Psycho 100",
-    "imagen": "img/Mob.jpg",
-    "descripcion": "Un psíquico con inmenso poder aprende a controlar sus emociones y habilidades."
-},
-{
-    "titulo": "Mashle",
-    "imagen": "img/Mashle.jpg",
-    "descripcion": "Sin magia en un mundo mágico, Mash usa su fuerza bruta para destacar."
-},
-{
-    "titulo": "Spy X Family",
-    "imagen": "img/Spy x Family.jpg",
-    "descripcion": "Un espía, una asesina y una telépata fingen ser familia para una misión."
-},
-
-{
-    "titulo": "Sakamoto Days",
-    "imagen": "img/Sakamoto Days.jpg",
-    "descripcion": "Un legendario asesino retirado ahora es un pacífico dueño de tienda, pero su pasado lo sigue persiguiendo."
-},
-
-{
-    "titulo": "Hells Paradise",
-    "imagen": "img/Hells paradise.jpg",
-    "descripcion": "Condenados a muerte buscan el elixir de la inmortalidad en una isla infernal."
-},
-{
-    "titulo": "Mushoku Tensei",
-    "imagen": "img/Mushoku Tensei.jpg",
-    "descripcion": "Un hombre renace en un mundo mágico para redimirse y encontrar propósito."
-},
-
-{
-    "titulo": "JoJo's Bizarre Adventure",
-    "imagen": "img/JoJo's Bizarre Adventure.jpg",
-    "descripcion": "Generaciones de la familia Joestar enfrentan enemigos con poderes sobrenaturales únicos."
-},
-{
+  },
+  {
     "titulo": "Kaiju N8",
-    "imagen": "img/Kaiju no_8.jpg",
+    "imagen": "img/Kaiju no_8 portada.webp",
+    "fondo": "img/Kaiju no_8 fondo.webp",
     "descripcion": "Un limpiador de monstruos obtiene un poder kaiju y lucha para proteger Japón."
+  },
+  {
+    "titulo": "Kakegurui",
+    "imagen": "img/Kakegurui portada.webp",
+    "fondo": "img/Kakegurui fondo.webp",
+    "descripcion": "En una academia donde el estatus se decide apostando, Yumeko encuentra en cada partida una emoción que roza la obsesión, sin importar cuánto arriesgue."
+  },
+  {
+    "titulo": "Kingdom",
+    "imagen": "img/Kingdom portada.webp",
+    "fondo": "img/Kingdom fondo.webp",
+    "descripcion": "En la época de los Reinos Combatientes de China, un joven huérfano decide convertirse en el mejor general de la historia, mientras es arrastrado a una guerra que definirá el destino de toda una nación."
+  },
+  {
+    "titulo": "Konosuba",
+    "imagen": "img/Konosuba portada.webp",
+    "fondo": "img/Konosuba fondo.webp",
+    "descripcion": "Reencarnado en un mundo de fantasía junto a una diosa inútil, Kazuma descubre que la aventura heroica puede ser, sobre todo, un desastre total."
+  },
+  {
+    "titulo": "Lord of Mysteries",
+    "imagen": "img/Lord of Mysteries portada.webp",
+    "fondo": "img/Lord of Mysteries fondo.webp",
+    "descripcion": "Entre rituales prohibidos y secretos que desafían la razón, Klein navega una era industrial saturada de misticismo donde cada paso en falso puede costarle la cordura."
+  },
+  {
+    "titulo": "Made In Abyss",
+    "imagen": "img/Made in abyss portada.webp",
+    "fondo": "img/Made in abyss fondo.webp",
+    "descripcion": "Una niña y su amigo androide exploran un abismo lleno de misterios y peligros."
+  },
+  {
+    "titulo": "Magi: Adventure of Sinbad",
+    "imagen": "img/Magi Adventure of Sinbad portada.webp",
+    "fondo": "img/Magi Adventure of Sinbad fondo.webp",
+    "descripcion": "Antes de convertirse en leyenda, un joven Sinbad construye su propio reino desde cero, enfrentando mazmorras imposibles y enemigos a su altura."
+  },
+   {
+    "titulo": "Magi: Kingdom of Magic",
+    "imagen": "img/Magi Kingdom of Magic portada.webp",
+    "fondo": "img/Magi Kingdom of Magic fondo.webp",
+    "descripcion": "Guiado por un misterioso niño con un poder oculto, un joven de gran corazón desafía ruinas malditas y enemigos despiadados para reclamar el poder de un rey y forjar su propio destino."
+  },
+  {
+    "titulo": "Mashle",
+    "imagen": "img/Mashle portada.webp",
+    "fondo": "img/Mashle fondo.webp",
+    "descripcion": "Sin magia en un mundo mágico, Mash usa su fuerza bruta para destacar."
+  },
+  {
+    "titulo": "Mirai Nikki",
+    "imagen": "img/Mirai Nikki portada.webp",
+    "fondo": "img/Mirai Nikki fondo.webp",
+    "descripcion": "Obligado a participar en un juego de supervivencia donde el futuro se reescribe a cada paso, Yukiteru deberá decidir en quién confiar antes de que sea tarde."
+  },
+  {
+    "titulo": "Mob Psycho 100",
+    "imagen": "img/Mob portada.webp",
+    "fondo": "img/Mob fondo.webp",
+    "descripcion": "Un psíquico con inmenso poder aprende a controlar sus emociones y habilidades."
+  },
+  {
+    "titulo": "Monster",
+    "imagen": "img/Monster portada.webp",
+    "fondo": "img/Monster fondo.webp",
+    "descripcion": "Tras salvar la vida de un niño que años después se convierte en un asesino despiadado, un brillante cirujano se ve obligado a perseguirlo por Europa para enmendar el peor error de su vida."
+  },
+  {
+    "titulo": "Mushoku Tensei",
+    "imagen": "img/Mushoku Tensei portada.webp",
+    "fondo": "img/Mushoku Tensei fondo.webp",
+    "descripcion": "Un hombre renace en un mundo mágico para redimirse y encontrar propósito."
+  },
+  {
+    "titulo": "My Dress-Up Darling",
+    "imagen": "img/My Dress-Up Darling portada.webp",
+    "fondo": "img/My Dress-Up Darling fondo.webp",
+    "descripcion": "Un tímido experto en muñecas tradicionales une fuerzas con una popular compañera de clase apasionada por el cosplay, descubriendo juntos un mundo de creatividad, confianza y aceptación."
+  },
+  {
+    "titulo": "Nanatsu no Taizai: The seven deadly Sins",
+    "imagen": "img/Nanatsu no Taizai portada.webp",
+    "fondo": "img/Nanatsu no Taizai fondo.webp",
+    "descripcion": "Acusados de traición, los Siete Pecados Capitales deben reunirse de nuevo para enfrentar una conspiración que amenaza con destruir el reino entero."
+  },
+  {
+    "titulo": "Naruto",
+    "imagen": "img/Naruto portada.webp",
+    "fondo": "img/Naruto fondo.webp",
+    "descripcion": "Despreciado por la aldea que jura proteger, Naruto persigue el sueño de convertirse en Hokage demostrando que el ninja más impredecible puede ser también el más fuerte."
+  },
+  {
+    "titulo": "Naruto Shippuden",
+    "imagen": "img/Naruto Shippuden portada.webp",
+    "fondo": "img/Naruto Shippuden fondo.webp",
+    "descripcion": "Más fuerte y decidido, Naruto enfrenta amenazas que ponen en jaque al mundo ninja entero, mientras la sombra de Akatsuki se cierne sobre todos sus seres queridos."
+  },
+  {
+    "titulo": "Neon Genesis Evangelion",
+    "imagen": "img/Neon Genesis Evangelion portada.webp",
+    "fondo": "img/Neon Genesis Evangelion fondo.webp",
+    "descripcion": "Pilotando un Eva contra ángeles que amenazan la existencia humana, Shinji deberá enfrentar también los traumas que lo consumen por dentro."
+  },
+  {
+    "titulo": "NieR: Automata Ver1.1a",
+    "imagen": "img/NieR Automata portada.webp",
+    "fondo": "img/NieR Automata fondo.webp",
+    "descripcion": "En una Tierra abandonada por la humanidad, los androides 2B y 9S combaten a las máquinas que aún ocupan el planeta, enfrentando verdades sobre la guerra que podrían destruir todo lo que creían defender."
+  },
+  {
+    "titulo": "One Piece",
+    "imagen": "img/One Piece portada.webp",
+    "fondo": "img/One Piece fondo.webp",
+    "descripcion": "Con un sombrero de paja como única promesa, Luffy navega los mares más peligrosos en busca del tesoro definitivo, reclutando una tripulación dispuesta a desafiar al mismísimo Gobierno Mundial."
+  },
+  {
+    "titulo": "One Punch Man",
+    "imagen": "img/One punch man portada.webp",
+    "fondo": "img/One punch man fondo.webp",
+    "descripcion": "Un héroe abrumadoramente fuerte busca emoción en un mundo de villanos débiles."
+  },
+  {
+    "titulo": "Overlord",
+    "imagen": "img/Overlord portada.webp",
+    "fondo": "img/Overlord fondo.webp",
+    "descripcion": "Atrapado en su propio videojuego tras su cierre definitivo, el poderoso hechicero Ainz Ooal Gown decide conquistar este nuevo mundo con la ayuda de sus fieles guardianes no-muertos."
+  },
+  {
+    "titulo": "Parasyte",
+    "imagen": "img/Parasyte portada.webp",
+    "fondo": "img/Parasyte fondo.webp",
+    "descripcion": "Tras ser infectado por un parásito alienígena que solo logra controlar su mano derecha, Shinichi deberá aprender a convivir con la criatura para sobrevivir a una guerra silenciosa contra otros de su especie."
+  },
+  {
+    "titulo": "Pokemon",
+    "imagen": "img/Pokemon portada.webp",
+    "fondo": "img/Pokemon fondo.webp",
+    "descripcion": "Junto a su fiel Pikachu, Ash Ketchum recorre región tras región capturando y entrenando criaturas extraordinarias, con la meta de convertirse algún día en un Maestro Pokémon."
+  },
+  {
+    "titulo": "Psycho-Pass",
+    "imagen": "img/Psycho-Pass portada.webp",
+    "fondo": "img/Psycho-Pass fondo.webp",
+    "descripcion": "En una sociedad donde un sistema mide la probabilidad de que alguien cometa un crimen, una joven inspectora descubre las grietas morales de un mundo que confunde justicia con control absoluto."
+  },
+  {
+    "titulo": "Ranking of Kings",
+    "imagen": "img/Ranking of Kings portada.webp",
+    "fondo": "img/Ranking of Kings fondo.webp",
+    "descripcion": "Sordo, débil y subestimado por todos, el príncipe Bojji se propone demostrar que la verdadera fuerza de un rey no se mide en batallas."
+  },
+  {
+    "titulo": "Ranma 1/2",
+    "imagen": "img/Ranma 1-2 portada.webp",
+    "fondo": "img/Ranma 1-2 fondo.webp",
+    "descripcion": "Maldecido para transformarse en mujer con agua fría, Ranma deberá lidiar con artes marciales, rivales y un caos romántico que jamás se detiene."
+  },
+  {
+    "titulo": "Ranma ½ (2024)",
+    "imagen": "img/Ranma 1-2 2024 portada.webp",
+    "fondo": "img/Ranma 1-2 2024 fondo.webp",
+    "descripcion": "Con una nueva animación para Netflix, la maldición que convierte a Ranma en mujer con agua fría regresa intacta, junto con las artes marciales, los rivales y el caos romántico que hicieron famosa a la historia original."
+  },
+  {
+    "titulo": "Re:Zero",
+    "imagen": "img/ReZero portada.webp",
+    "fondo": "img/ReZero fondo.webp",
+    "descripcion": "Atrapado en un ciclo de muerte y retorno que solo él recuerda, Subaru deberá sacrificarlo todo para proteger a quienes ama en un mundo que no perdona errores."
+  },
+  {
+    "titulo": "Record of Ragnarok",
+    "imagen": "img/Record of Ragnarok portada.webp",
+    "fondo": "img/Record of Ragnarok fondo.webp",
+    "descripcion": "Cuando la humanidad es sentenciada a la extinción, sus mejores guerreros se enfrentan a los dioses en combates que decidirán el destino del mundo."
+  },
+  {
+    "titulo": "Saber Marionette J",
+    "imagen": "img/Saber Marionette portada.webp",
+    "fondo": "img/Saber Marionette fondo.webp",
+    "descripcion": "En un planeta poblado solo por hombres, Otaru descubre marionetas con corazón propio que despiertan una vida llena de caos y emociones inesperadas."
+  },
+  {
+    "titulo": "Saiki Kusuo no Psi-nan",
+    "imagen": "img/Saiki Kusuo no Psi-nan portada.webp",
+    "fondo": "img/Saiki Kusuo no Psi-nan fondo.webp",
+    "descripcion": "Dotado con poderes psíquicos absolutos que le hacen la vida aburrida y complicada, Saiki solo desea pasar desapercibido, aunque un grupo de amigos excéntricos se lo hace prácticamente imposible."
+  },
+  {
+    "titulo": "Sailor Moon",
+    "imagen": "img/Sailor Moon portada.webp",
+    "fondo": "img/Sailor Moon fondo.webp",
+    "descripcion": "Una estudiante torpe descubre que es la reencarnación de una guerrera legendaria, transformándose en Sailor Moon para proteger la Tierra junto a sus compañeras guardianas del sistema solar."
 },
 {
+    "titulo": "Sailor Moon Crystal",
+    "imagen": "img/Sailor Moon Crystal portada.webp",
+    "fondo": "img/Sailor Moon Crystal fondo.webp",
+    "descripcion": "Con una animación más fiel al manga original, Usagi y las Sailor Guardians retoman su lucha contra fuerzas oscuras que amenazan la Tierra, revelando secretos sobre su pasado como princesas del Milenio de Plata."
+  },
+  {
+    "titulo": "Saint Seiya: Knights of the Zodiac",
+    "imagen": "img/Saint Seiya portada.webp",
+    "fondo": "img/Saint Seiya fondo.webp",
+    "descripcion": "Vistiendo armaduras sagradas y luchando bajo la protección de la diosa Atenea, los Caballeros del Zodiaco enfrentan batallas que desafían a los propios dioses."
+  },
+  {
+    "titulo": "Saint Seiya: Soul of Gold",
+    "imagen": "img/Saint Seiya Soul of Gold portada.webp",
+    "fondo": "img/Saint Seiya Soul of Gold fondo.webp",
+    "descripcion": "Revividos misteriosamente tras su sacrificio, los Caballeros Dorados deben enfrentar una nueva amenaza en Asgard, descubriendo secretos ocultos sobre su propia resurrección."
+  },
+  {
+    "titulo": "Saint Seiya: The Lost Canvas",
+    "imagen": "img/Saint Seiya The Lost Canvas portada.webp",
+    "fondo": "img/Saint Seiya The Lost Canvas fondo.webp",
+    "descripcion": "Un siglo antes de la historia original, un joven Caballero de Pegaso enfrenta una guerra santa contra el inframundo, mientras su amistad con quien será su rival se resquebraja para siempre."
+  },
+  {
+    "titulo": "Sakamoto Days",
+    "imagen": "img/Sakamoto Days portada.webp",
+    "fondo": "img/Sakamoto Days fondo.webp",
+    "descripcion": "Un legendario asesino retirado ahora es un pacífico dueño de tienda, pero su pasado lo sigue persiguiendo."
+  },
+  {
+    "titulo": "Sakura Card Captor",
+    "imagen": "img/Sakura Card Captor portada.webp",
+    "fondo": "img/Sakura Card Captor fondo.webp",
+    "descripcion": "Tras liberar accidentalmente las Cartas Clow, Sakura deberá capturarlas todas mientras descubre el verdadero significado del valor y la amistad."
+  },
+  {
+    "titulo": "Samurai Champloo",
+    "imagen": "img/Samurai Champloo portada.webp",
+    "fondo": "img/Samurai Champloo fondo.webp",
+    "descripcion": "Entre katanas, beats y un Japón feudal reinventado, Mugen y Jin escoltan a una joven en busca de un samurái que huele a girasoles."
+  },
+  {
+    "titulo": "Samurai X",
+    "imagen": "img/Samurai X portada.webp",
+    "fondo": "img/Samurai X fondo.webp",
+    "descripcion": "Buscando redimirse de un pasado como asesino implacable, Kenshin jura proteger a los inocentes empuñando una espada que nunca volverá a matar."
+  },
+  {
+    "titulo": "Sentenced to Be a Hero",
+    "imagen": "img/Sentenced to Be a Hero portada.webp",
+    "fondo": "img/Sentenced to Be a Hero fondo.webp",
+    "descripcion": "Condenado como asesino de diosas, Xylo Forbartz combate hordas interminables de abominaciones en la Unidad de Héroes Penales 9004, donde ni la muerte es escapatoria, solo un ciclo de resurrección y combate. Pero un encuentro con una misteriosa diosa desata una rebelión que nadie vio venir."
+  },
+  {
+    "titulo": "Shaman King",
+    "imagen": "img/Shaman King portada.webp",
+    "fondo": "img/Shaman King fondo.webp",
+    "descripcion": "Capaz de comunicarse con los espíritus, Yoh Asakura entrena para convertirse en el Shaman King definitivo, compitiendo en un torneo ancestral que decide quién dará forma al futuro de la humanidad."
+  },
+  {
+    "titulo": "Shaman King (2021)",
+    "imagen": "img/Shaman King 2021 portada.webp",
+    "fondo": "img/Shaman King 2021 fondo.webp",
+    "descripcion": "Con una adaptación más fiel al manga original, Yoh Asakura retoma su camino hacia el torneo de shamanes definitivo, acompañado de aliados y espíritus que pondrán a prueba su determinación pacífica."
+  },
+  {
+    "titulo": "Shangri-La Frontier",
+    "imagen": "img/Shangri-La Frontier portada.webp",
+    "fondo": "img/Shangri-La Frontier fondo.webp",
+    "descripcion": "Especializado en jugar los peores videojuegos jamás creados, Rakuro se enfrenta ahora a un MMORPG de clase S que pondrá a prueba todas sus habilidades."
+  },
+  {
+    "titulo": "Slam Dunk",
+    "imagen": "img/Slam Dunk portada.webp",
+    "fondo": "img/Slam Dunk fondo.webp",
+    "descripcion": "Sin saber nada de baloncesto pero enamorado de una chica, Hanamichi se une al equipo y descubre una pasión que terminará por consumirlo por completo."
+  },
+  {
+    "titulo": "Solo Leveling",
+    "imagen": "img/Solo Leveling portada.webp",
+    "fondo": "img/Solo Leveling fondo.webp",
+    "descripcion": "Un cazador débil obtiene un misterioso poder que lo vuelve imparable."
+  },
+  {
+    "titulo": "Soul Eater",
+    "imagen": "img/Soul Eater portada.webp",
+    "fondo": "img/Soul Eater fondo.webp",
+    "descripcion": "En una academia para forjar armas de almas humanas, Maka y sus compañeros deben recolectar almas de villanos para crear la guadaña definitiva."
+  },
+  {
+    "titulo": "Spy X Family",
+    "imagen": "img/Spy x Family portada.webp",
+    "fondo": "img/Spy x Family fondo.webp",
+    "descripcion": "Un espía, una asesina y una telépata fingen ser familia para una misión."
+  },
+  {
+    "titulo": "Steins;Gate",
+    "imagen": "img/Steins;Gate portada.webp",
+    "fondo": "img/Steins;Gate fondo.webp",
+    "descripcion": "Al descubrir accidentalmente cómo enviar mensajes al pasado, un excéntrico autoproclamado científico loco desata consecuencias que ponen en riesgo la vida de las personas que más quiere."
+  },
+  {
+    "titulo": "Strawberry Eggs",
+    "imagen": "img/Strawberry Eggs portada.webp",
+    "fondo": "img/Strawberry Eggs fondo.webp",
+    "descripcion": "Necesitado de trabajo, un joven maestro se ve obligado a disfrazarse de mujer para dar clases en una escuela que solo contrata profesoras, desatando un enredo tan cómico como entrañable."
+  },
+  {
+    "titulo": "Sword Art Online",
+    "imagen": "img/Sword Art Online portada.webp",
+    "fondo": "img/Sword Art Online fondo.webp",
+    "descripcion": "Atrapados en un videojuego de realidad virtual donde morir significa morir de verdad, Kirito deberá liderar a miles de jugadores en busca de la libertad."
+  },
+  {
+    "titulo": "That Time I Got Reincarnated as a Slime",
+    "imagen": "img/That Time I Got Reincarnated as a Slime portada.webp",
+    "fondo": "img/That Time I Got Reincarnated as a Slime fondo.webp",
+    "descripcion": "Reencarnado como un humilde slime en un mundo de fantasía, Rimuru descubre habilidades únicas que lo llevarán a construir su propia nación y liderar a todo tipo de criaturas hacia la convivencia."
+  },
+  {
+    "titulo": "The Apothecary Diaries",
+    "imagen": "img/The Apothecary Diaries portada.webp",
+    "fondo": "img/The Apothecary Diaries fondo.webp",
+    "descripcion": "Con un conocimiento de hierbas fuera de lo común, Maomao resuelve misterios en el palacio imperial mientras intenta no llamar demasiado la atención."
+  },
+  {
+    "titulo": "The Brilliant Healer's New Life in the Shadows",
+    "imagen": "img/The Brilliant Healer's New Life in the Shadows portada.webp",
+    "fondo": "img/The Brilliant.webp",
+    "descripcion": "Expulsado injustamente de su gremio, un sanador decide ocultar su verdadero poder mientras reconstruye su vida lejos de quienes nunca lo valoraron."
+  },
+  {
+    "titulo": "The Eminence in Shadow",
+    "imagen": "img/The Eminence in Shadow portada.webp",
+    "fondo": "img/The Eminence in Shadow fondo.webp",
+    "descripcion": "Obsesionado desde niño con ser un poderoso personaje secundario, Cid reencarna en un mundo de fantasía y construye en secreto una organización clandestina, sin saber que sus fantasías se están volviendo realidad."
+  },
+  {
+    "titulo": "The Legend of Vox Machina",
+    "imagen": "img/The Legend of Vox Machina portada.webp",
+    "fondo": "img/The Legend of Vox Machina fondo.webp",
+    "descripcion": "Un grupo de mercenarios caóticos y desastrosos se ve obligado a convertirse en los héroes que un reino en crisis necesita, enfrentando amenazas que superan por mucho su reputación de bebedores y peleoneros."
+  },
+  {
+    "titulo": "The Promised Neverland",
+    "imagen": "img/The Promised Neverland portada.webp",
+    "fondo": "img/The Promised Neverland fondo.webp",
+    "descripcion": "Tras descubrir la verdad detrás de su orfanato idílico, Emma y sus amigos planean una fuga desesperada antes de convertirse en el próximo plato servido."
+  },
+  {
+    "titulo": "The Rising of the Shield Hero",
+    "imagen": "img/The Rising of the Shield Hero portada.webp",
+    "fondo": "img/The Rising of the Shield Hero fondo.webp",
+    "descripcion": "Traicionado y despojado de su honor desde el primer día, Naofumi debe sobrevivir en un mundo hostil armado solo con un escudo, demostrando que hasta el héroe más despreciado puede alzarse con la fuerza más inquebrantable."
+  },
+   {
+    "titulo": "The Summer Hikaru Died",
+    "imagen": "img/The Summer Hikaru Died portada.webp",
+    "fondo": "img/The Summer Hikaru Died fondo.webp",
+    "descripcion": "Cuando algo regresó del bosque usando el rostro de su mejor amigo, Yoshiki deberá decidir cuánto está dispuesto a callar para no perderlo de nuevo."
+  },
+  {
+    "titulo": "The Water Magician",
+    "imagen": "img/The Water Magician portada.webp",
+    "fondo": "img/The Water Magician fondo.webp",
+    "descripcion": "Reencarnada en un mundo de fantasía con una afinidad única por la magia de agua, una joven decide vivir con calma y sin llamar la atención, aunque su poder la lleve a lo contrario."
+  },
+  {
+    "titulo": "The Way of the Househusband",
+    "imagen": "img/The Way of the Househusband portada.webp",
+    "fondo": "img/The Way of the Househusband fondo.webp",
+    "descripcion": "Un legendario yakuza retirado dedica ahora su vida a las labores del hogar con la misma intensidad y disciplina que antes reservaba para el crimen organizado."
+  },
+  {
+    "titulo": "To Your Eternity",
+    "imagen": "img/To Your Eternity portada.webp",
+    "fondo": "img/To Your Eternity fondo.webp",
+    "descripcion": "Un ser inmortal e informe llega a la Tierra y, al tomar la forma de quienes conoce, aprende sobre el amor, la pérdida y el significado de existir a través de innumerables vidas y despedidas."
+  },
+  {
+    "titulo": "Tokyo Ghoul",
+    "imagen": "img/Tokyo Ghoul portada.webp",
+    "fondo": "img/Tokyo Ghoul fondo.webp",
+    "descripcion": "Convertido a medias en ghoul tras un encuentro fatal, Kaneki deberá aprender a sobrevivir entre dos mundos que se odian mutuamente."
+  },
+  {
+    "titulo": "Tokyo Magnitude 8.0",
+    "imagen": "img/Tokyo Magnitude 8.0 portada.webp",
+    "fondo": "img/Tokyo Magnitude 8.0 fondo.webp",
+    "descripcion": "Cuando un terremoto devastador golpea Tokio, una hermana mayor deberá encontrar la fuerza para proteger a su hermano pequeño en medio del caos absoluto."
+  },
+  {
     "titulo": "Tokyo Revengers",
-    "imagen": "img/Tokyo Revengers.jpg",
+    "imagen": "img/Tokyo Revengers portada.webp",
+    "fondo": "img/Tokyo Revengers fondo.webp",
     "descripcion": "Un joven viaja al pasado para cambiar el destino trágico de sus amigos."
-}
-
-
+  },
+  {
+    "titulo": "Tougen Anki",
+    "imagen": "img/Tougen Anki portada.webp",
+    "fondo": "img/Tougen Anki fondo.webp",
+    "descripcion": "Entre oni y exorcistas, Shiki descubre un poder ancestral que lo arrastra a un conflicto sobrenatural que ha durado generaciones."
+  },
+  {
+    "titulo": "Trigun",
+    "imagen": "img/Trigun portada.webp",
+    "fondo": "img/Trigun fondo.webp",
+    "descripcion": "Con una recompensa gigante sobre su cabeza, Vash el Forajido recorre un planeta desértico tratando de evitar la violencia que parece seguirlo a todas partes."
+  },
+  {
+    "titulo": "Trigun Stampede",
+    "imagen": "img/Trigun Stampede portada.webp",
+    "fondo": "img/Trigun Stampede fondo.webp",
+    "descripcion": "Reimaginado con una mirada más oscura, Vash enfrenta las consecuencias de un pasado que amenaza con repetirse en un planeta al borde del colapso."
+  },
+  {
+    "titulo": "Viewtiful Joe",
+    "imagen": "img/Viewtiful Joe portada.webp",
+    "fondo": "img/Viewtiful Joe fondo.webp",
+    "descripcion": "Absorbido dentro de la película que estaba viendo, Joe debe transformarse en un superhéroe de acción real para rescatar a su novia, usando efectos especiales como arma de combate."
+  },
+  {
+    "titulo": "Vinland Saga",
+    "imagen": "img/Vinland saga portada.webp",
+    "fondo": "img/Vinland saga fondo.webp",
+    "descripcion": "Thorfinn busca redención en un mundo brutal de vikingos y conquistas."
+  },
+  {
+    "titulo": "Violet Evergarden",
+    "imagen": "img/Violet Evergarden portada.webp",
+    "fondo": "img/Violet Evergarden fondo.webp",
+    "descripcion": "Marcada para siempre por la guerra, Violet aprende a escribir cartas que dan voz a los sentimientos ajenos, mientras intenta comprender los suyos propios."
+  },
+  {
+    "titulo": "Wind Breaker",
+    "imagen": "img/Wind Breaker portada.webp",
+    "fondo": "img/Wind Breaker fondo.webp",
+    "descripcion": "Buscando ser reconocido como el más fuerte, un solitario delincuente se transfiere a una escuela dominada por una pandilla que, para su sorpresa, protege en secreto a la ciudad."
+  },
+  {
+    "titulo": "Wistoria: Wand and Sword",
+    "imagen": "img/Wistoria Wand and Sword portada.webp",
+    "fondo": "img/Wistoria Wand and Sword fondo.webp",
+    "descripcion": "Incapaz de usar magia en un mundo que la venera, Will decide dominar la espada para forjarse un lugar entre los magos que lo subestiman."
+  },
+  {
+    "titulo": "Witch Hat Atelier",
+    "imagen": "img/Witch Hat Atelier portada.webp",
+    "fondo": "img/Witch Hat Atelier fondo.webp",
+    "descripcion": "Fascinada por un arte mágico prohibido, Coco se une a un taller de brujas para aprender hechizos que podrían cambiar su destino para siempre."
+  },
+  {
+    "titulo": "Yomi no Tsugai",
+    "imagen": "img/Yomi no Tsugai portada.webp",
+    "fondo": "img/Yomi no Tsugai fondo.webp",
+    "descripcion": "Herederos de un poder que les corresponde por nacimiento, los gemelos Yoru y Asa fueron separados de niños sin conocer la verdad sobre los tsugai que deben controlar. Ahora deberán reencontrarse, reclamar su legado y enfrentar lo que sea necesario para salvar el mundo."
+  },
+  {
+    "titulo": "Youjo Senki",
+    "imagen": "img/Youjo Senki portada.webp",
+    "fondo": "img/Youjo Senki fondo.webp",
+    "descripcion": "Reencarnada como una niña soldado en un mundo en guerra, Tanya combina una mente fría y calculadora con un poder mágico devastador para sobrevivir al frente."
+  },
+  {
+    "titulo": "Your Lie in April",
+    "imagen": "img/Your Lie in April portada.webp",
+    "fondo": "img/Your Lie in April fondo.webp",
+    "descripcion": "Un pianista prodigio que perdió la capacidad de escuchar su propia música conoce a una violinista de espíritu libre que le devuelve el color a su vida a través de las notas más inesperadas."
+  },
+  {
+    "titulo": "Yu-Gi-Oh!",
+    "imagen": "img/Yu-Gi-Oh portada.webp",
+    "fondo": "img/Yu-Gi-Oh fondo.webp",
+    "descripcion": "Al resolver un antiguo rompecabezas egipcio, Yugi despierta un espíritu milenario que lo acompaña en duelos de cartas donde la magia, el destino y los recuerdos de una vida pasada están en juego."
+  },
+  {
+    "titulo": "Yuyu Hakusho",
+    "imagen": "img/Yuyu Hakusho portada.webp",
+    "fondo": "img/Yuyu Hakusho fondo.webp",
+    "descripcion": "Tras morir salvando a un niño, Yusuke recibe una segunda oportunidad como detective espiritual, enfrentando demonios en un mundo entre la vida y la muerte."
+  },
+  {
+    "titulo": "Zatch Bell",
+    "imagen": "img/Zatch Bell portada.webp",
+    "fondo": "img/Zatch Bell fondo.webp",
+    "descripcion": "Vinculado por un libro mágico a un misterioso niño llamado Zatch, Kiyomaru se ve arrastrado a una batalla entre demonios que luchan por convertirse en el rey de su mundo."
+  },
+  {
+    "titulo": "Zom 100: The Bucket List of the Dead",
+    "imagen": "img/Zom 100 portada.webp",
+    "fondo": "img/Zom 100 fondo.webp",
+    "descripcion": "Un oficinista hastiado encuentra libertad en un apocalipsis zombi y crea su lista de deseos."
+  }
 ]

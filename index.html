@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shinku No Sekai</title>
-    <link rel="icon" href="img/Logo/Shinku No Sekai icono.png" type="iShinku no sekai icono"> <!-- Ícono de pestaña -->
+    <link rel="icon" href="img/Logo/Shinku No Sekai icono.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <style>
-        header{
-            border: 5px solid #000a23
-        }
-    </style>
-    
 </head>
 <body>
-    
-   <header class="banner">
 
-    <!-- LOGO FUERA DEL NAV -->
+<header class="banner">
+
+    <!-- LOGO -->
     <div class="logo-container">
         <a href="index.html">
-            <img src="img/Logo/Shinku No Sekai Logo Horizontal.png" 
-                 alt="Shinku No Sekai Logo" 
+            <img src="img/Logo/Shinku No Sekai Logo Horizontal.png"
+                 alt="Shinku No Sekai Logo"
                  class="logo">
         </a>
+    </div>
+
+    <!-- BUSCADOR -->
+    <div class="nav-search">
+        <input type="text" id="buscador-header" placeholder="Buscar anime o película..." autocomplete="off">
+        <div class="search-results-list" id="header-search-results"></div>
     </div>
 
     <!-- MENÚ -->
@@ -32,74 +32,174 @@
         <ul>
             <li><a href="top.html">Animes</a></li>
             <li><a href="peliculas.html">Peliculas</a></li>
-            <li><a href="login.html">Iniciar Sesion</a></li>
+            <li id="nav-login"><a href="login.html">Iniciar Sesion</a></li>
         </ul>
     </nav>
 
     <!-- HAMBURGUESA -->
-    <div class="menu-toggle">
-        ☰
-    </div>
+    <div class="menu-toggle">☰</div>
 
 </header>
-    <h1>Bienvenido a Shinku No Sekai</h1>
-    <header>
 
-    <main>
-        <div class="carousel-container">
-            <div class="carousel">
-                <div class="carousel-item">
-                    <img src="img/JJK CARRUSEL.jpg" alt="Jujutsu Kaisen">
-                    <div class="carousel-text">
-                        <h2>Jujutsu Kaisen</h2>
-                        <p>Un estudiante de secundaria ingiere un objeto maldito y se ve atrapado en una batalla contra maldiciones y hechiceros.</p>
-                        <a href="ver.html?titulo=Jujutsu Kaisen" class="watch-button">Comenzar a ver</a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/suzume carrusel.jpg" alt="Suzume">
-                    <div class="carousel-text">
-                        <h2>Suzume</h2>
-                        <p>Una joven emprende un viaje para cerrar puertas místicas que traen desastres a Japón.</p>
-                        <a href="ver-pelicula.html?titulo=Suzume" class="watch-button">Comenzar a ver</a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/SNK CARRUSEL.jpg" alt="Attack on Titan">
-                    <div class="carousel-text">
-                        <h2>Attack on Titan</h2>
-                        <p>La humanidad lucha por sobrevivir contra los titanes en un mundo devastado.</p>
-                        <a href="ver.html?titulo=Attack on Titan" class="watch-button">Comenzar a ver</a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/your name carrusel.jpg" alt="Your Name">
-                    <div class="carousel-text">
-                        <h2>Your Name</h2>
-                        <p>Dos jóvenes que nunca se han visto cambian de cuerpos inexplicablemente y buscan encontrarse.</p>
-                        <a href="ver-pelicula.html?titulo=Your Name" class="watch-button">Comenzar a ver</a>
+<main>
 
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/SAKAMOTO DAYS CARRUSEL.jpg" alt="Sakamoto Days">
-                    <div class="carousel-text">
-                        <h2>Sakamoto Days</h2>
-                        <p>Un legendario asesino retirado ahora es un pacífico dueño de tienda, pero su pasado lo sigue persiguiendo.</p>
-                        <a href="ver.html?titulo=Sakamoto Days" class="watch-button">Comenzar a ver</a>
-                    </div>
+    <!-- CARRUSEL HERO -->
+    <div class="carousel-container">
+        <div class="carousel">
+
+            <div class="carousel-item active">
+                <img src="img/JJK fondo.webp" alt="Jujutsu Kaisen"
+                     onerror="handleImgError(this, 'Jujutsu Kaisen')">
+                <div class="carousel-text">
+                    <h2>Jujutsu Kaisen</h2>
+                    <p>Un estudiante de secundaria ingiere un objeto maldito y se ve atrapado en una batalla contra maldiciones y hechiceros.</p>
+                    <a href="ver.html?titulo=Jujutsu Kaisen" class="watch-button">▶ Comenzar a ver</a>
                 </div>
             </div>
-    
-            <button class="prev">❮</button>
-            <button class="next">❯</button>  
 
-          
-    </main>
-    
-        </body>
+            <div class="carousel-item">
+                <img src="img/ReZero fondo.webp" alt="Re:Zero"
+                     onerror="handleImgError(this, 'Re:Zero')">
+                <div class="carousel-text">
+                    <h2>Re:Zero</h2>
+                    <p>UAtrapado en un ciclo de muerte y retorno que solo él recuerda, Subaru deberá sacrificarlo todo para proteger a quienes ama en un mundo que no perdona errores.</p>
+                    <a href="ver.html?titulo=Re:Zero" class="watch-button">▶ Comenzar a ver</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/snk fondo.webp" alt="Attack on Titan"
+                     onerror="handleImgError(this, 'Attack on Titan')">
+                <div class="carousel-text">
+                    <h2>Attack on Titan</h2>
+                    <p>La humanidad lucha por sobrevivir contra los titanes en un mundo devastado.</p>
+                    <a href="ver.html?titulo=Attack on Titan" class="watch-button">▶ Comenzar a ver</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/Witch Hat Atelier fondo.webp" alt="Witch Hat Atelier"
+                     onerror="handleImgError(this, 'Witch Hat Atelier')">
+                <div class="carousel-text">
+                    <h2>Witch Hat Atelier</h2>
+                    <p>Fascinada por un arte mágico prohibido, Coco se une a un taller de brujas para aprender hechizos que podrían cambiar su destino para siempre.</p>
+                    <a href="ver.html?titulo=Witch Hat Atelier" class="watch-button">▶ Comenzar a ver</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/bleach_tyob_fondo.webp" alt="Bleach Thousand Years Of Blood"
+                     onerror="handleImgError(this, 'Bleach Thousand Years Of Blood')">
+                <div class="carousel-text">
+                    <h2>Bleach Thousand Years Of Blood</h2>
+                    <p>El equilibrio entre vivos y muertos se rompe cuando un enemigo olvidado regresa para reclamar venganza, obligando a Ichigo y la Sociedad de Almas a enfrentar su batalla final.</p>
+                    <a href="ver.html?titulo=Bleach Thousand Years Of Blood" class="watch-button">▶ Comenzar a ver</a>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+        <div class="carousel-dots"></div>
+    </div>
+
+    <!-- FILAS ESTILO STREAMING -->
+
+    <section class="row-section">
+        <h2 class="row-title">Los Más Populares</h2>
+        <div class="row-carousel"
+             data-titles="Attack on Titan,Jujutsu Kaisen,Demon Slayer,One Piece,Naruto Shippuden,Chainsaw Man,Solo Leveling,Death Note,Bleach,Dragon Ball Super,Boku no Hero Academia,Hunter x Hunter">
+            <button class="row-prev">❮</button>
+            <div class="row-track"></div>
+            <button class="row-next">❯</button>
+        </div>
+    </section>
+
+    <section class="row-section">
+        <h2 class="row-title">Nuevos Animes</h2>
+        <div class="row-carousel"
+             data-titles="Dan Da Dan,Wind Breaker,Sakamoto Days,Clevatess,Gachiakuta,Kaiju N8,Four Knights of the Apocalypse,Dragon Ball Daima,Ranma ½ (2024),To Your Eternity,Shaman King (2021),My Dress-Up Darling">
+            <button class="row-prev">❮</button>
+            <div class="row-track"></div>
+            <button class="row-next">❯</button>
+        </div>
+    </section>
+
+    <section class="row-section">
+        <h2 class="row-title">Películas</h2>
+        <div class="row-carousel" data-source="peliculas" data-limit="14">
+            <button class="row-prev">❮</button>
+            <div class="row-track"></div>
+            <button class="row-next">❯</button>
+        </div>
+    </section>
+
+    <section class="row-section">
+        <h2 class="row-title">Fantasía Oscura</h2>
+        <div class="row-carousel"
+             data-titles="Berserk,Castlevania,Castlevania: Nocturne,Dorohedoro,Elfen Lied,Devil May Cry,Hellsing Ultimate,Vinland Saga,Record of Ragnarok,Tokyo Ghoul,Blue Eye Samurai,Monster">
+            <button class="row-prev">❮</button>
+            <div class="row-track"></div>
+            <button class="row-next">❯</button>
+        </div>
+    </section>
+
+    <section class="row-section">
+        <h2 class="row-title">Comedia Frenética</h2>
+        <div class="row-carousel"
+             data-titles="Gintama,Excel Saga,Konosuba,Saiki Kusuo no Ψ-nan,Mashle,Ranma 1/2,Spy X Family,One Punch Man,The Way of the Househusband,Zoom 100,Mob Psycho 100,Dan Da Dan">
+            <button class="row-prev">❮</button>
+            <div class="row-track"></div>
+            <button class="row-next">❯</button>
+        </div>
+    </section>
+
+    <section class="row-section">
+        <h2 class="row-title">Mundos Paralelos</h2>
+        <div class="row-carousel"
+             data-titles="Overlord,That Time I Got Reincarnated as a Slime,Re:Zero,The Water Magician,Mushoku Tensei,No Game No Life,The Rising of the Shield Hero,Youjo Senki,The Eminence in Shadow,Sword Art Online,Konosuba">
+            <button class="row-prev">❮</button>
+            <div class="row-track"></div>
+            <button class="row-next">❯</button>
+        </div>
+    </section>
+
+    <section class="row-section">
+        <h2 class="row-title">Espíritu Deportivo</h2>
+        <div class="row-carousel"
+             data-titles="Blue Lock,Haikyu!!,Captain Tsubasa,Slam Dunk">
+            <button class="row-prev">❮</button>
+            <div class="row-track"></div>
+            <button class="row-next">❯</button>
+        </div>
+    </section>
+
+    <section class="row-section">
+        <h2 class="row-title">Clásicos de siempre</h2>
+        <div class="row-carousel"
+             data-titles="Cowboy Bebop,Dragon Ball,Neon Genesis Evangelion,Inuyasha,Yuyu Hakusho,Saint Seiya,Sailor Moon,Full Metal Alchemist,Naruto,Trigun,Samurai X,Yu-Gi-Oh!">
+            <button class="row-prev">❮</button>
+            <div class="row-track"></div>
+            <button class="row-next">❯</button>
+        </div>
+    </section>
+
+    <section class="row-section">
+        <h2 class="row-title">Estudio Ghibli</h2>
+        <div class="row-carousel" data-source="peliculas"
+             data-titles="El Viaje de Chihiro,Mi Vecino Totoro,La Princesa Mononoke,El Castillo Ambulante,La Tumba de las Luciérnagas,Kiki: Entregas a Domicilio,Ponyo,El Viento se Levanta,El Castillo en el Cielo,Susurros del Corazón,El Cuento de la Princesa Kaguya,El Niño y la Garza">
+            <button class="row-prev">❮</button>
+            <div class="row-track"></div>
+            <button class="row-next">❯</button>
+        </div>
+    </section>
+
+</main>
+
 <footer>
     <p>&copy; 2026 Shinku No Sekai - Todos los derechos reservados</p>
 </footer>
 
+</body>
 </html>

@@ -25,14 +25,15 @@ footer {
     padding: 20px 0;
 }
 
+a { color: inherit; }
+
 
 /* =========================
    2️⃣ BANNER / HEADER
 ========================= */
 html {
     scroll-behavior: smooth;
-} 
-
+}
 
 .banner {
     position: fixed;
@@ -41,10 +42,16 @@ html {
     background: rgba(0, 10, 35, 0.95);
     backdrop-filter: blur(8px);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 12px 30px;
+    gap: 15px;
     z-index: 1000;
+}
+
+.logo-container {
+    flex-shrink: 0;
 }
 
 .logo {
@@ -55,12 +62,14 @@ html {
 
 .nav-menu {
     display: flex;
+    order: 3;
 }
 
 .nav-menu ul {
     display: flex;
     list-style: none;
     gap: 30px;
+    align-items: center;
 }
 
 .nav-menu a {
@@ -68,10 +77,18 @@ html {
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    white-space: nowrap;
 }
 
 .nav-menu a:hover {
     color: #FF00FF;
+}
+
+#nav-login.logged-in a {
+    color: #00FFFF;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 /* HAMBURGUESA */
@@ -81,41 +98,180 @@ html {
     font-size: 28px;
     cursor: pointer;
     color: white;
+    order: 4;
 }
 
 
 /* =========================
-   3️⃣ CARRUSEL (HOME)
+   3️⃣ BUSCADOR EN EL HEADER
+========================= */
+
+.nav-search {
+    position: relative;
+    flex: 1 1 260px;
+    max-width: 380px;
+    order: 2;
+}
+
+.nav-search input {
+    width: 100%;
+    padding: 10px 18px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.nav-search input::placeholder {
+    color: #9aa3b8;
+}
+
+.nav-search input:focus {
+    border-color: #FF00FF;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.nav-search .search-results-list {
+    top: calc(100% + 10px);
+}
+
+.search-results-list {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    background: #0d1330;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.55);
+    z-index: 500;
+    max-height: 420px;
+    overflow-y: auto;
+    display: none;
+}
+
+.search-results-list.show {
+    display: block;
+}
+
+.search-result-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+}
+
+.search-result-item:hover {
+    background: rgba(255, 0, 255, 0.15);
+}
+
+.search-result-item img {
+    width: 40px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.search-result-empty {
+    padding: 15px;
+    color: #9aa3b8;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.flip-front img,
+.detail-poster,
+.carousel-item img {
+    background: linear-gradient(135deg, #1a1f3a, #0d1330);
+}
+
+/* =========================
+   4️⃣ CARRUSEL HERO (estilo Crunchyroll)
 ========================= */
 
 .carousel-container {
-    width: 85%;
-    margin: auto;
+    width: 100%;
     position: relative;
     overflow: hidden;
+    height: 62vh;
+    min-height: 380px;
+    max-height: 640px;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 .carousel-item {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
     display: none;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.carousel-item.active {
+    display: block;
+    opacity: 1;
 }
 
 .carousel-item img {
-    width: 60%;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 12px;
+    object-position: center 75%;
+    display: block;
+}
+
+.carousel-item::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(to top, #000a23 2%, rgba(0,10,35,0.55) 38%, rgba(0,10,35,0) 70%),
+        linear-gradient(to right, rgba(0,10,35,0.9) 0%, rgba(0,10,35,0.25) 55%, rgba(0,10,35,0.1) 100%);
 }
 
 .carousel-text {
-    width: 35%;
+    position: absolute;
+    left: 6%;
+    bottom: 9%;
+    max-width: 540px;
+    z-index: 2;
+}
+
+.carousel-text h2 {
+    font-size: clamp(1.6rem, 4vw, 2.6rem);
+    margin-bottom: 12px;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.carousel-text p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #e4e6f0;
+    margin-bottom: 18px;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.6);
 }
 
 .watch-button {
-    display: inline-block;
-    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 24px;
     background: #FF00FF;
     color: white;
     border-radius: 6px;
@@ -126,35 +282,181 @@ html {
 
 .watch-button:hover {
     background: #00FFFF;
+    color: #000a23;
 }
 
 .prev, .next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.45);
     border: none;
     color: white;
-    padding: 10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 20px;
+    z-index: 3;
+    transition: 0.3s;
 }
 
-.prev { left: 10px; }
-.next { right: 10px; }
+.prev:hover, .next:hover {
+    background: rgba(255,0,255,0.6);
+}
+
+.prev { left: 18px; }
+.next { right: 18px; }
+
+.carousel-dots {
+    position: absolute;
+    bottom: 18px;
+    right: 6%;
+    display: flex;
+    gap: 8px;
+    z-index: 3;
+}
+
+.carousel-dots span {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.35);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.carousel-dots span.active {
+    background: #FF00FF;
+    width: 22px;
+    border-radius: 5px;
+}
 
 
 /* =========================
-   4️⃣ GRID ANIMES (TOP / PELICULAS)
+   4.5️⃣ FILAS HORIZONTALES (estilo streaming)
 ========================= */
+
+.row-section {
+    padding: 25px 5% 5px;
+}
+
+.row-title {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.row-carousel {
+    position: relative;
+}
+
+.row-track {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x proximity;
+    padding: 4px 4px 14px;
+    cursor: grab;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.row-track::-webkit-scrollbar {
+    display: none;
+}
+
+.row-track.dragging {
+    cursor: grabbing;
+    scroll-behavior: auto;
+    user-select: none;
+}
+
+.row-card {
+    flex: 0 0 160px;
+    aspect-ratio: 2 / 3;
+    scroll-snap-align: start;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    background: linear-gradient(135deg, #1a1f3a, #0d1330);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.row-card:hover {
+    transform: scale(1.07);
+    z-index: 5;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.55);
+}
+
+.row-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    pointer-events: none;
+}
+
+.row-card-label {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 22px 8px 8px;
+    background: linear-gradient(to top, rgba(0,0,0,0.92), transparent);
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.3;
+    pointer-events: none;
+}
+
+.row-prev, .row-next {
+    position: absolute;
+    top: 42%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.55);
+    border: none;
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 6;
+    transition: 0.3s;
+}
+
+.row-prev:hover, .row-next:hover {
+    background: rgba(255,0,255,0.65);
+}
+
+.row-prev { left: -8px; }
+.row-next { right: -8px; }
+
+
+/* =========================
+   5️⃣ GRID ANIMES (TOP / PELICULAS)
+========================= */
+
+.top-list {
+    padding: 10px 0 20px;
+}
+
+.top-list h1 {
+    padding: 20px 6%;
+}
 
 .anime-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    padding: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 200px));
+    justify-content: center;
+    gap: 22px;
+    padding: 20px 5% 50px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
-
 
 
 /* =========================
@@ -168,7 +470,7 @@ html {
 
     opacity: 0;
     transform: translateY(40px);
-    transition: 
+    transition:
         opacity 0.8s ease,
         transform 0.8s ease,
         box-shadow 0.4s ease;
@@ -176,12 +478,15 @@ html {
     z-index: 1;
 }
 
+.flip-card.hidden-by-search {
+    display: none;
+}
+
 .flip-card.show {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* Efecto Netflix */
 .flip-card:hover {
     transform: translateY(0) scale(1.08);
     z-index: 10;
@@ -222,125 +527,59 @@ html {
 
 .flip-back {
     transform: rotateY(180deg);
-    background-size: cover;
-    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
-.flip-back .overlay {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-        to top,
-        rgba(0,0,0,0.9),
-        rgba(0,0,0,0.6)
-    );
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.flip-back button {
-    margin-top: 15px;
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
-    background: #ff00ff;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.flip-back button:hover {
-    background: #00ffff;
-    box-shadow: 0 0 15px #00ffff;
-}
-
-@keyframes zoomBg {
-    from { background-size: 100%; }
-    to { background-size: 120%; }
-}
-
-/* Hover PC */
-.flip-card:hover .flip-inner {
-    transform: rotateY(180deg);
-}
-
-/* Tap móvil */
-.flip-inner.flip-mobile {
-    transform: rotateY(180deg);
-}
-
-.flip-front,
-.flip-back {
+.flip-bg {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 14px;
-    backface-visibility: hidden;
-    overflow: hidden;
-}
-
-/* Frente */
-
-.flip-front img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Parte trasera */
-
-.flip-back {
-    transform: rotateY(180deg);
+    inset: 0;
     background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    background-repeat: no-repeat;
+    background-position: center 65%;
+    transform-origin: center;
     animation: zoomBg 18s infinite alternate ease-in-out;
+    will-change: transform;
 }
-
-/* Overlay oscuro elegante */
 
 .flip-back .overlay {
+    position: relative;
     width: 100%;
     height: 100%;
     background: linear-gradient(
         to top,
-        rgba(0,0,0,0.9),
-        rgba(0,0,0,0.6)
+        rgba(0,0,0,0.92),
+        rgba(0,0,0,0.55)
     );
-    padding: 25px;
+    padding: 18px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .flip-back h3 {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    font-size: 15px;
 }
 
 .flip-back p {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 1.4;
+    max-height: 110px;
+    overflow: hidden;
 }
 
-/* Botón */
-
 .flip-back button {
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 12px;
+    padding: 9px;
     border: none;
     border-radius: 6px;
     background: #ff00ff;
     color: white;
     font-weight: bold;
+    font-size: 12px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -350,39 +589,275 @@ html {
     box-shadow: 0 0 15px #00ffff;
 }
 
-/* Zoom cinematográfico */
-
 @keyframes zoomBg {
-    from { background-size: 100%; }
-    to { background-size: 120%; }
+    from { transform: scale(1); }
+    to { transform: scale(1.15); }
 }
 
 
 /* =========================
-   6️⃣ RESPONSIVE
+   6️⃣ PÁGINA DE DETALLE (ver.html)
+========================= */
+
+.detail-hero {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+}
+
+.detail-hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, #000a23 8%, rgba(0,10,35,0.55) 45%, rgba(0,10,35,0.85) 100%);
+}
+
+.detail-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 40px 6%;
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.detail-poster {
+    width: 180px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    flex-shrink: 0;
+}
+
+.detail-info {
+    max-width: 650px;
+}
+
+.detail-info h1 {
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    margin-bottom: 14px;
+}
+
+.detail-info p {
+    line-height: 1.7;
+    color: #e4e6f0;
+    font-size: 15px;
+}
+
+.platform-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 22px;
+}
+
+.platform-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.platform-btn svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.platform-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.45);
+}
+
+.btn-crunchyroll { background: #f47521; }
+.btn-netflix      { background: #e50914; }
+.btn-prime        { background: #00a8e1; }
+.btn-disney       { background: #113ccf; }
+.btn-hidive       { background: #2bb3d6; }
+
+.detail-section {
+    padding: 35px 6%;
+}
+
+.detail-section h2 {
+    margin-bottom: 20px;
+    color: #FF00FF;
+    font-size: 1.4rem;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.video-card {
+    background: #0d1330;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.video-card iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    display: block;
+}
+
+.video-card .video-label {
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.video-missing {
+    background: #0d1330;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    color: #9aa3b8;
+    font-size: 14px;
+}
+
+.video-missing a {
+    color: #00FFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.detail-loading,
+.detail-error {
+    padding: 100px 6%;
+    text-align: center;
+    color: #9aa3b8;
+}
+
+.detail-error a {
+    color: #00FFFF;
+}
+
+
+/* =========================
+   7️⃣ LOGIN DE PRUEBA
+========================= */
+
+.login-container {
+    max-width: 400px;
+    margin: 120px auto 60px;
+    padding: 40px 30px;
+    background: #0d1330;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background: rgba(255,255,255,0.08);
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.login-container input:focus {
+    border-color: #FF00FF;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #FF00FF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.login-btn:hover {
+    background: #00FFFF;
+    color: #000a23;
+}
+
+.login-demo-note {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 12px;
+    color: #8d96ad;
+    line-height: 1.5;
+}
+
+.logged-in-box {
+    max-width: 420px;
+    margin: 130px auto 60px;
+    padding: 45px 30px;
+    text-align: center;
+    background: #0d1330;
+    border-radius: 16px;
+}
+
+.logged-in-box .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #FF00FF, #00FFFF);
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000a23;
+}
+
+.logout-btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #2a3354;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: #3c4978;
+}
+
+
+/* =========================
+   8️⃣ RESPONSIVE
 ========================= */
 
 /* Tablet */
 
 @media (max-width: 1024px) {
-
-    .carousel-item {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .carousel-item img {
-        width: 100%;
-        height: 300px;
-    }
-
-    .carousel-text {
-        width: 100%;
-        margin-top: 20px;
-    }
-
     .anime-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(140px, 170px));
     }
 }
 
@@ -391,16 +866,20 @@ html {
 
 @media (max-width: 768px) {
 
-    /* Mostrar hamburguesa */
     .menu-toggle {
         display: block;
     }
 
-    /* Ocultar menú normal */
+    .nav-search {
+        flex-basis: 100%;
+        max-width: 100%;
+        order: 3;
+    }
+
     .nav-menu {
         position: absolute;
-        top: 70px;
-        right: 0;
+        top: 100%;
+        left: 0;
         width: 100%;
         background: #000a23;
         display: none;
@@ -418,11 +897,39 @@ html {
         gap: 25px;
     }
 
-    /* 2 cartas en móvil */
+    .carousel-container {
+        height: 50vh;
+        min-height: 320px;
+    }
+
+    .carousel-text {
+        max-width: 90%;
+        left: 5%;
+        bottom: 12%;
+    }
+
+    .carousel-text p {
+        display: none; /* en móvil priorizamos título + botón */
+    }
+
     .anime-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        padding: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+        padding: 15px 4% 40px;
+    }
+
+    .detail-hero-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .detail-info {
+        max-width: 100%;
+    }
+
+    .platform-buttons {
+        justify-content: center;
     }
 }
 
@@ -435,13 +942,19 @@ html {
         max-width: 80px;
     }
 
-    .carousel-item img {
-        height: 220px;
-    }
-
-    /* 1 carta en móviles muy pequeños */
     .anime-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
+    .detail-poster {
+        width: 140px;
+    }
+
+    .row-card {
+        flex: 0 0 115px;
+    }
+
+    .row-prev, .row-next {
+        display: none; /* en móvil se desliza con el dedo, no con flechas */
+    }
 }

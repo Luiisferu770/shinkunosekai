@@ -1,28 +1,303 @@
 [
-    {
-      "titulo": "Suzume",
-      "imagen": "img/suzume.jpg",
-      "descripcion": "Una chica emprende un viaje para cerrar puertas misteriosas que desatan desastres."
-    },
-    {
-      "titulo": "Your name",
-      "imagen": "img/YOUR NAME.jpg",
-      "descripcion": "Dos jóvenes conectados por el destino intercambian cuerpos y desafían el tiempo."
-    },
-    {
-      "titulo": "El Jardín de las Palabras",
-      "imagen": "img/El jardin de las palabras.jpeg",
-      "descripcion": "Un encuentro bajo la lluvia une a un estudiante y una misteriosa mujer."
-    },
-    {
-      "titulo": "El tiempo contigo",
-      "imagen": "img/El tiempo contigo.jpeg",
-      "descripcion": "Un chico fugitivo descubre a una chica capaz de manipular el clima."
-    },
-    {
-      "titulo": "La Chica que Saltaba a Través del Tiempo",
-      "imagen": "img/La chica que saltaba a traves del tiempo.jpeg",
-      "descripcion": "Una estudiante obtiene el poder de viajar en el tiempo, pero cada salto tiene consecuencias."
-    }
-  ]
-  
+  {
+    "titulo": "5 Centímetros por Segundo",
+    "imagen": "img/5 Centímetros por Segundo portada.webp",
+    "fondo": "img/5 Centímetros por Segundo fondo.webp",
+    "descripcion": "A través de tres historias entrelazadas, dos personas ven cómo la distancia y el tiempo van transformando lentamente un amor de infancia."
+  },
+  {
+    "titulo": "A Silent Voice",
+    "imagen": "img/A Silent Voice portada.webp",
+    "fondo": "img/A Silent Voice fondo.webp",
+    "descripcion": "Atormentado por el bullying que ejerció en la infancia, un joven busca redimirse reencontrándose con la compañera sorda a la que una vez hizo daño."
+  },
+  {
+    "titulo": "Akira",
+    "imagen": "img/Akira portada.webp",
+    "fondo": "img/Akira fondo.webp",
+    "descripcion": "En un Neo-Tokio postapocalíptico, un joven líder de pandilla debe enfrentar a su mejor amigo después de que este desarrolle poderes psíquicos incontrolables."
+  },
+  {
+    "titulo": "Angel's Egg",
+    "imagen": "img/Angels Egg portada.webp",
+    "fondo": "img/Angels Egg fondo.webp",
+    "descripcion": "En un mundo desolado y onírico, una niña solitaria custodia con devoción un huevo misterioso, hasta que el encuentro con un extraño viajero la enfrenta a preguntas sobre la fe y la pérdida."
+  },
+  {
+    "titulo": "Belle",
+    "imagen": "img/Belle portada.webp",
+    "fondo": "img/Belle fondo.webp",
+    "descripcion": "Una tímida estudiante encuentra en el mundo virtual de 'U' la voz y la confianza que le faltan en la vida real, convirtiéndose en la cantante virtual más famosa del mundo."
+  },
+  {
+    "titulo": "Colorful",
+    "imagen": "img/Colorful portada.webp",
+    "fondo": "img/Colorful fondo.webp",
+    "descripcion": "Un alma sin recuerdos recibe una segunda oportunidad al reencarnar en el cuerpo de un adolescente que intentó quitarse la vida, debiendo descubrir en un mes qué llevó a ese chico hasta el límite."
+  },
+ 
+  {
+    "titulo": "El Castillo en el Cielo",
+    "imagen": "img/El Castillo en el Cielo portada.webp",
+    "fondo": "img/El Castillo en el Cielo fondo.webp",
+    "descripcion": "Dos jóvenes emprenden la búsqueda de Laputa, una legendaria ciudad flotante, mientras escapan de piratas del cielo y agentes del gobierno."
+  },
+   {
+    "titulo": "El Castillo Vagabundo",
+    "imagen": "img/El Castillo Ambulante portada.webp",
+    "fondo": "img/El Castillo Ambulante fondo.webp",
+    "descripcion": "Convertida en anciana por una bruja celosa, Sophie encuentra refugio en el extraño castillo andante del hechicero Howl, donde nada es lo que parece."
+  },
+  {
+    "titulo": "El Cuento de la Princesa Kaguya",
+    "imagen": "img/El Cuento de la Princesa Kaguya portada.webp",
+    "fondo": "img/El Cuento de la Princesa Kaguya fondo.webp",
+    "descripcion": "Encontrada dentro de un tallo de bambú, una niña crece con una belleza y un destino extraordinarios que la alejan cada vez más de la vida sencilla que anhela."
+  },
+  {
+    "titulo": "El Jardín de las Palabras",
+    "imagen": "img/El Jardín de las Palabras portada.webp",
+    "fondo": "img/El Jardín de las Palabras fondo.webp",
+    "descripcion": "Un estudiante y una misteriosa mujer mayor que él comparten las mañanas lluviosas en un jardín japonés, donde nace una conexión tan delicada como inesperada."
+  },
+  {
+    "titulo": "El Mundo Secreto de Arrietty",
+    "imagen": "img/El Mundo Secreto de Arrietty portada.webp",
+    "fondo": "img/El Mundo Secreto de Arrietty fondo.webp",
+    "descripcion": "Una diminuta joven que vive en secreto bajo el piso de una casa entabla una arriesgada amistad con el niño humano que la descubre."
+  },
+  {
+    "titulo": "El Niño y la Garza",
+    "imagen": "img/El Niño y la Garza portada.webp",
+    "fondo": "img/El Niño y la Garza fondo.webp",
+    "descripcion": "Tras la pérdida de su madre, un joven es guiado por una extraña garza hacia un mundo mágico donde realidad y fantasía se entrelazan con el duelo y la memoria."
+  },
+  {
+    "titulo": "El Recuerdo de Marnie",
+    "imagen": "img/El Recuerdo de Marnie portada.webp",
+    "fondo": "img/El Recuerdo de Marnie fondo.webp",
+    "descripcion": "Una joven solitaria forma un vínculo inexplicable con una misteriosa niña en una mansión abandonada, descubriendo secretos que conectan su pasado y su presente."
+  },
+  {
+    "titulo": "El Viaje de Chihiro",
+    "imagen": "img/El Viaje de Chihiro portada.webp",
+    "fondo": "img/El Viaje de Chihiro fondo.webp",
+    "descripcion": "Tras cruzar sin querer al mundo de los espíritus, Chihiro deberá trabajar en una casa de baños mágica para salvar a sus padres y encontrar el camino de regreso a casa."
+  },
+  {
+    "titulo": "El Viento se Levanta",
+    "imagen": "img/El Viento se Levanta portada.webp",
+    "fondo": "img/El Viento se Levanta fondo.webp",
+    "descripcion": "Inspirado en la vida de un diseñador de aviones, este relato explora la pasión, los sueños y las sombras de la guerra que marcaron una época."
+  },
+  {
+    "titulo": "En Este Rincón del Mundo",
+    "imagen": "img/En Este Rincón del Mundo portada.webp",
+    "fondo": "img/En Este Rincón del Mundo fondo.webp",
+    "descripcion": "Una joven recién casada intenta mantener la vida cotidiana a flote en Hiroshima durante la Segunda Guerra Mundial, mientras el conflicto se acerca cada vez más a su hogar."
+  },
+  {
+    "titulo": "Ghost in the Shell",
+    "imagen": "img/Ghost in the Shell portada.webp",
+    "fondo": "img/Ghost in the Shell fondo.webp",
+    "descripcion": "Una agente cibernética persigue a un misterioso hacker conocido como Puppet Master, enfrentando preguntas sobre la identidad y la conciencia en un futuro dominado por la tecnología."
+  },
+  {
+    "titulo": "Josee, el Tigre y los Peces",
+    "imagen": "img/Josee, el Tigre y los Peces portada.webp",
+    "fondo": "img/Josee, el Tigre y los Peces fondo.webp",
+    "descripcion": "Un estudiante universitario es contratado para cuidar a una joven con discapacidad y un carácter fuerte, formando un vínculo que cambiará la forma en que ambos ven el mundo."
+  },
+  {
+    "titulo": "Kiki: Entregas a Domicilio",
+    "imagen": "img/Kiki Entregas a Domicilio portada.webp",
+    "fondo": "img/Kiki Entregas a Domicilio fondo.webp",
+    "descripcion": "Siguiendo la tradición de las brujas, Kiki se muda sola a una nueva ciudad con su gato para iniciar su propio negocio de entregas voladoras."
+  },
+  {
+    "titulo": "La Chica que Saltaba a Través del Tiempo",
+    "imagen": "img/La Chica que Saltaba a Través del Tiempo portada.webp",
+    "fondo": "img/La Chica que Saltaba a Través del Tiempo fondo.webp",
+    "descripcion": "Al descubrir que puede saltar en el tiempo, una estudiante usa este poder para arreglar pequeños errores cotidianos, sin imaginar las consecuencias que esto desatará."
+  },
+  {
+    "titulo": "La Colina de las Amapolas",
+    "imagen": "img/La Colina de las Amapolas portada.webp",
+    "fondo": "img/La Colina de las Amapolas fondo.webp",
+    "descripcion": "En el Japón de los años 60, dos jóvenes se unen para salvar el club estudiantil de su escuela mientras descubren un lazo inesperado entre sus familias."
+  },
+  {
+    "titulo": "La Princesa Mononoke",
+    "imagen": "img/La Princesa Mononoke portada.webp",
+    "fondo": "img/La Princesa Mononoke fondo.webp",
+    "descripcion": "En medio de una guerra entre los dioses del bosque y la industria humana, un joven maldito busca la forma de devolver el equilibrio a un mundo al borde de la destrucción."
+  },
+  {
+    "titulo": "La Tumba de las Luciérnagas",
+    "imagen": "img/La Tumba de las Luciérnagas portada.webp",
+    "fondo": "img/La Tumba de las Luciérnagas fondo.webp",
+    "descripcion": "En el Japón devastado por la guerra, un hermano y su hermana pequeña luchan por sobrevivir solos, aferrándose a los breves momentos de luz en medio de la tragedia."
+  },
+  {
+    "titulo": "Liz y el Pájaro Azul",
+    "imagen": "img/Liz y el Pájaro Azul portada.webp",
+    "fondo": "img/Liz y el Pájaro Azul fondo.webp",
+    "descripcion": "La relación entre dos jóvenes músicas se ve reflejada en un cuento de hadas sobre una joven y un pájaro, mientras ambas enfrentan el miedo a separarse."
+  },
+  {
+    "titulo": "Maquia: When the Promised Flower Blooms",
+    "imagen": "img/Maquia When the Promised Flower Blooms portada.webp",
+    "fondo": "img/Maquia When the Promised Flower Blooms fondo.webp",
+    "descripcion": "Una joven inmortal de un pueblo élfico encuentra y cría a un bebé humano huérfano, enfrentando el dolor de amar a alguien cuya vida se apagará mucho antes que la suya."
+  },
+  {
+    "titulo": "Metropolis",
+    "imagen": "img/Metropolis portada.webp",
+    "fondo": "img/Metropolis fondo.webp",
+    "descripcion": "En una metrópolis futurista dividida entre humanos y robots, un detective y su sobrino se ven envueltos en una conspiración que gira en torno a una misteriosa niña androide capaz de cambiar el destino de la ciudad."
+  },
+  {
+    "titulo": "Mi Vecino Totoro",
+    "imagen": "img/Mi Vecino Totoro portada.webp",
+    "fondo": "img/Mi Vecino Totoro fondo.webp",
+    "descripcion": "Dos hermanas descubren criaturas mágicas del bosque mientras se adaptan a su nuevo hogar en el campo y esperan la recuperación de su madre."
+  },
+  {
+    "titulo": "Millennium Actress",
+    "imagen": "img/Millennium Actress portada.webp",
+    "fondo": "img/Millennium Actress fondo.webp",
+    "descripcion": "A través de una entrevista, una legendaria actriz retirada revive su vida y su carrera en una narrativa donde el cine y los recuerdos se confunden por completo."
+  },
+  {
+    "titulo": "Mirai, mi Nueva Hermana",
+    "imagen": "img/Mirai, mi Nueva Hermana portada.webp",
+    "fondo": "img/Mirai, mi Nueva Hermana fondo.webp",
+    "descripcion": "Un niño pequeño celoso de su nueva hermana emprende un viaje mágico a través del árbol genealógico de su familia, aprendiendo a aceptar su nuevo rol como hermano mayor."
+  },
+  {
+    "titulo": "Mis Vecinos los Yamada",
+    "imagen": "img/Mis Vecinos los Yamada portada.webp",
+    "fondo": "img/Mis Vecinos los Yamada fondo.webp",
+    "descripcion": "Las pequeñas aventuras cotidianas de una familia japonesa común se cuentan con humor, ternura y un estilo visual completamente distinto al resto de Ghibli."
+  },
+  {
+    "titulo": "Paprika",
+    "imagen": "img/Paprika portada.webp",
+    "fondo": "img/Paprika fondo.webp",
+    "descripcion": "Una investigadora capaz de entrar en los sueños de otros debe detener a quien está usando esa misma tecnología para borrar la frontera entre el sueño y la realidad."
+  },
+  {
+    "titulo": "Perfect Blue",
+    "imagen": "img/Perfect Blue portada.webp",
+    "fondo": "img/Perfect Blue fondo.webp",
+    "descripcion": "Al abandonar su carrera como ídolo pop para convertirse en actriz, Mima comienza a perder la línea entre su identidad real y la de un acosador que se hace pasar por ella."
+  },
+  {
+    "titulo": "Pompoko",
+    "imagen": "img/Pompoko portada.webp",
+    "fondo": "img/Pompoko fondo.webp",
+    "descripcion": "Un clan de tanukis usa sus poderes de transformación para intentar frenar la expansión urbana que está destruyendo su hogar en el bosque."
+  },
+  {
+    "titulo": "Ponyo",
+    "imagen": "img/Ponyo portada.webp",
+    "fondo": "img/Ponyo fondo.webp",
+    "descripcion": "Una pequeña criatura marina con forma de pez desea convertirse en humana tras conocer a un niño, desatando un desequilibrio mágico entre el mar y la tierra."
+  },
+  {
+    "titulo": "Porco Rosso",
+    "imagen": "img/Porco Rosso portada.webp",
+    "fondo": "img/Porco Rosso fondo.webp",
+    "descripcion": "Convertido en cerdo por una misteriosa maldición, un veterano piloto italiano combate piratas del aire sobre el mar Adriático, mientras enfrenta los fantasmas de su propio pasado como aviador de guerra."
+  },
+  {
+    "titulo": "Quiero Comerme tu Páncreas",
+    "imagen": "img/Quiero Comerme tu Páncreas portada.webp",
+    "fondo": "img/Quiero Comerme tu Páncreas fondo.webp",
+    "descripcion": "Un estudiante solitario descubre por accidente que su compañera de clase tiene una enfermedad terminal, comenzando una amistad tan breve como inolvidable."
+  },
+  {
+    "titulo": "Recuerdos del Ayer",
+    "imagen": "img/Recuerdos del Ayer portada.webp",
+    "fondo": "img/Recuerdos del Ayer fondo.webp",
+    "descripcion": "Una mujer de ciudad emprende un viaje al campo que despierta recuerdos de su infancia, llevándola a reflexionar sobre el rumbo de su vida adulta."
+  },
+  {
+    "titulo": "Redline",
+    "imagen": "img/Redline portada.webp",
+    "fondo": "img/Redline fondo.webp",
+    "descripcion": "El piloto más temerario de la galaxia se juega la vida en la carrera ilegal más peligrosa jamás creada, donde la velocidad, el caos y el orgullo definen quién merece cruzar la meta."
+  },
+  {
+    "titulo": "Ride Your Wave",
+    "imagen": "img/Ride Your Wave portada.webp",
+    "fondo": "img/Ride Your Wave fondo.webp",
+    "descripcion": "Tras perder trágicamente al surfista que amaba, una joven descubre que puede invocar su espíritu a través del agua, aprendiendo a sanar mientras aprende poco a poco a dejarlo ir."
+  },
+  {
+    "titulo": "Space Battleship Yamato",
+    "imagen": "img/Space Battleship Yamato portada.webp",
+    "fondo": "img/Space Battleship Yamato fondo.webp",
+    "descripcion": "Con la Tierra al borde de la extinción por un ataque alienígena, una tripulación de héroes emprende un viaje desesperado a bordo del legendario acorazado Yamato en busca de la única esperanza de salvación de la humanidad."
+  },
+  {
+    "titulo": "Steamboy",
+    "imagen": "img/Steamboy portada.webp",
+    "fondo": "img/Steamboy fondo.webp",
+    "descripcion": "En la Inglaterra victoriana, un joven inventor recibe una esfera de vapor capaz de revolucionar el mundo, convirtiéndose en el centro de una disputa entre su propia familia y fuerzas dispuestas a todo por controlar su poder."
+  },
+  {
+    "titulo": "Summer Wars",
+    "imagen": "img/Summer Wars portada.webp",
+    "fondo": "img/Summer Wars fondo.webp",
+    "descripcion": "Durante una reunión familiar, un estudiante de matemáticas se ve envuelto en una crisis virtual que amenaza con colapsar el mundo digital del que depende toda la sociedad."
+  },
+  {
+    "titulo": "Susurros del Corazón",
+    "imagen": "img/Susurros del Corazón portada.webp",
+    "fondo": "img/Susurros del Corazón fondo.webp",
+    "descripcion": "Una joven aspirante a escritora descubre su propia voz creativa mientras persigue a un misterioso lector que comparte sus mismos gustos literarios."
+  },
+  {
+    "titulo": "Suzume",
+    "imagen": "img/Suzume portada.webp",
+    "fondo": "img/Suzume fondo.webp",
+    "descripcion": "Una joven emprende un viaje por todo Japón para cerrar puertas místicas que traen desastres, descubriendo en el camino el peso de las pérdidas que nadie recuerda."
+  },
+  {
+    "titulo": "Tokyo Godfathers",
+    "imagen": "img/Tokyo Godfathers portada.webp",
+    "fondo": "img/Tokyo Godfathers fondo.webp",
+    "descripcion": "En la víspera de Navidad, tres personas sin hogar encuentran a un bebé abandonado y emprenden una búsqueda desesperada para encontrar a sus padres."
+  },
+  {
+    "titulo": "Tu Nombre Grabado en mi Corazón",
+    "imagen": "img/Tu Nombre Grabado en mi Corazón portada.webp",
+    "fondo": "img/Tu Nombre Grabado en mi Corazón fondo.webp",
+    "descripcion": "Una historia conmovedora sobre dos amigos de infancia y el amor que nunca se atrevieron a confesar antes de que un accidente cambiara todo para siempre."
+  },
+  {
+    "titulo": "Voces de una Estrella Distante",
+    "imagen": "img/Voces de una Estrella Distante portada.webp",
+    "fondo": "img/Voces de una Estrella Distante fondo.webp",
+    "descripcion": "Separados por la guerra y el espacio, dos jóvenes mantienen su vínculo a través de mensajes que tardan años en llegar, mientras el tiempo los distancia de formas distintas."
+  },
+  {
+    "titulo": "Weathering With You",
+    "imagen": "img/Weathering With You portada.webp",
+    "fondo": "img/Weathering With You fondo.webp",
+    "descripcion": "Un joven fugitivo y una chica capaz de controlar el clima forman un vínculo que pondrá a prueba hasta dónde están dispuestos a llegar para salvarse mutuamente."
+  },
+  {
+    "titulo": "Wolf Children",
+    "imagen": "img/Wolf Children portada.webp",
+    "fondo": "img/Wolf Children fondo.webp",
+    "descripcion": "Tras la muerte de su pareja, una madre debe criar sola a sus dos hijos mitad humanos, mitad lobo, en un mundo que no está preparado para entenderlos."
+  },
+  {
+    "titulo": "Your Name",
+    "imagen": "img/Your Name portada.webp",
+    "fondo": "img/Your Name fondo.webp",
+    "descripcion": "Dos jóvenes que nunca se han visto cambian de cuerpos inexplicablemente y buscan encontrarse antes de que un destino mayor los separe para siempre."
+  }
+]

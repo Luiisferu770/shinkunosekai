@@ -4,56 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión - Shinku No Sekai</title>
-    <link rel="icon" href="img/Logo/Shinku No Sekai icono.png" type="icono sns"> <!-- Ícono de pestaña -->
+    <link rel="icon" href="img/Logo/Shinku No Sekai icono.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-<body>
-    <header class="banner">
 
-    <!-- LOGO FUERA DEL NAV -->
+<body>
+
+<header class="banner">
     <div class="logo-container">
         <a href="index.html">
-            <img src="img/Logo/Shinku No Sekai Logo Horizontal.png" 
-                 alt="Shinku No Sekai Logo" 
+            <img src="img/Logo/Shinku No Sekai Logo Horizontal.png"
+                 alt="Shinku No Sekai Logo"
                  class="logo">
         </a>
     </div>
 
-    <!-- MENÚ -->
+    <!-- BUSCADOR -->
+    <div class="nav-search">
+        <input type="text" id="buscador-header" placeholder="Buscar anime o película..." autocomplete="off">
+        <div class="search-results-list" id="header-search-results"></div>
+    </div>
+
     <nav class="nav-menu">
         <ul>
             <li><a href="top.html">Animes</a></li>
             <li><a href="peliculas.html">Peliculas</a></li>
-            <li><a href="login.html">Iniciar Sesion</a></li>
+            <li id="nav-login"><a href="login.html">Iniciar Sesion</a></li>
         </ul>
     </nav>
 
-    <!-- HAMBURGUESA -->
-    <div class="menu-toggle">
-        ☰
+    <div class="menu-toggle">☰</div>
+</header>
+
+<main>
+
+    <!-- FORMULARIO DE LOGIN (modo prueba, sin backend) -->
+    <div class="login-container" id="login-form-box">
+        <h1>Iniciar Sesión</h1>
+        <form id="form-login" onsubmit="return manejarLogin(event)">
+            <input type="text" id="nombre-login" placeholder="Tu nombre (opcional)">
+            <input type="email" placeholder="Correo (no se valida, es demo)">
+            <input type="password" placeholder="Contraseña (no se valida, es demo)">
+            <button type="submit" class="login-btn">Entrar</button>
+        </form>
+        <p class="login-demo-note">
+            Esta es una sesión de prueba: no se conecta a ningún servidor.
+            Tus datos solo quedan guardados en este navegador.
+        </p>
     </div>
 
-</header>
-    <h1>Bienvenido a Shinku No Sekai</h1>
-    <header>
+    <!-- ESTADO YA LOGUEADO -->
+    <div class="logged-in-box" id="logged-in-box" style="display:none;">
+        <div class="avatar" id="avatar-usuario-demo">?</div>
+        <h1>Hola, <span id="nombre-usuario-demo">Invitado</span> 👋</h1>
+        <p class="login-demo-note">Tu sesión de prueba está activa en este navegador.</p>
+        <button class="logout-btn" onclick="cerrarSesionDemo()">Cerrar sesión</button>
+    </div>
 
-    <main>
-        <section class="login-form">
-            <h1>Iniciar Sesión</h1>
-            <form action="procesar_login.php" method="POST">
-                <label for="username">Usuario:</label>
-                <input type="text" id="username" name="username" required>
+</main>
 
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" required>
+<footer>
+    <p>&copy; 2026 Shinku No Sekai - Todos los derechos reservados</p>
+</footer>
 
-                <button type="submit">Ingresar</button>
-            </form>
-        </section>
-    </main>
+<script>
+    function manejarLogin(event) {
+        event.preventDefault();
+        const nombre = document.getElementById("nombre-login").value;
+        iniciarSesionDemo(nombre);
+        location.assign("index.html");
+        return false;
+    }
+</script>
 
-    <footer>
-        <p>&copy; 2026 Shinku No Sekai - Todos los derechos reservados</p>
-    </footer>
-
+</body>
 </html>
