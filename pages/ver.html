@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="page-title">Cargando... - Shinku No Sekai</title>
-    <link rel="icon" href="img/Logo/Shinku No Sekai icono.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="icon" href="/img/Logo/Shinku No Sekai icono.png" type="image/png">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/pages/script.js" defer></script>
 </head>
 
 <body>
 
 <header class="banner">
     <div class="logo-container">
-        <a href="index.html">
-            <img src="img/Logo/Shinku No Sekai Logo Horizontal.png"
+        <a href="/index.html">
+            <img src="/img/Logo/Shinku No Sekai Logo Horizontal.png"
                  alt="Shinku No Sekai Logo"
                  class="logo">
         </a>
@@ -28,9 +28,9 @@
 
     <nav class="nav-menu">
         <ul>
-            <li><a href="top.html">Animes</a></li>
-            <li><a href="peliculas.html">Peliculas</a></li>
-            <li id="nav-login"><a href="login.html">Iniciar Sesion</a></li>
+            <li><a href="/pages/top.html">Animes</a></li>
+            <li><a href="/pages/peliculas.html">Peliculas</a></li>
+            <li id="nav-login"><a href="/pages/login.html">Iniciar Sesion</a></li>
         </ul>
     </nav>
 
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    fetch("animes.json")
+    fetch("/js/api/animes.json")
         .then(res => res.json())
         .then(data => {
             const anime = data.find(a => a.titulo.toLowerCase() === tituloParam.toLowerCase());
@@ -81,14 +81,16 @@ document.addEventListener("DOMContentLoaded", () => {
         main.innerHTML = `
             <div class="detail-error">
                 <p>${msg}</p>
-                <p><a href="top.html">← Volver al listado de animes</a></p>
+                <p><a href="/pages/top.html">← Volver al listado de animes</a></p>
             </div>
         `;
     }
 
     function rutaImg(src, fallback) {
         if (!src) return fallback;
-        return src.startsWith("img/") ? src : `img/${src}`;
+        if (src.startsWith("/img/")) return src;
+        if (src.startsWith("img/")) return `/${src}`;
+        return `/img/${src}`;
     }
 
     function iconoExterno() {
@@ -98,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function renderAnime(anime) {
         document.getElementById("page-title").textContent = `${anime.titulo} - Shinku No Sekai`;
 
-        const imagen = rutaImg(anime.imagen, "img/placeholder.jpg");
+        const imagen = rutaImg(anime.imagen, "/img/placeholder.jpg");
         const fondo = rutaImg(anime.fondo || anime.imagen, imagen);
         const tituloBusqueda = encodeURIComponent(anime.titulo);
 

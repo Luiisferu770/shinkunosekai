@@ -2,7 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const animeNombre = urlParams.get("anime");
 const episodioNumero = parseInt(urlParams.get("ep"));
 
-fetch("animes.json")
+fetch("/js/api/animes.json")
     .then(response => response.json())
     .then(data => {
         const anime = data.find(a => a.nombre === animeNombre);
@@ -17,7 +17,7 @@ fetch("animes.json")
                     <p>${episodio.descripcion}</p>
                 `;
 
-                document.getElementById("volver-anime").href = `ver.htm?id=${encodeURIComponent(anime.nombre)}`;
+                document.getElementById("volver-anime").href = `/pages/ver.html?titulo=${encodeURIComponent(anime.nombre)}`;
             } else {
                 document.getElementById("episodio-info").innerHTML = "<p>Episodio no encontrado.</p>";
             }

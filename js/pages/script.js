@@ -111,8 +111,8 @@ document.addEventListener("DOMContentLoaded", function () {
     if (container) {
         // data-source: archivo JSON a cargar (por defecto animes.json)
         // data-target: página de detalle a la que apunta cada tarjeta (por defecto ver.html)
-        const fuenteJson = container.dataset.source || "animes.json";
-        const paginaDestino = container.dataset.target || "ver.html";
+        const fuenteJson = container.dataset.source || "/js/api/animes.json";
+        const paginaDestino = container.dataset.target || "/pages/ver.html";
 
         fetch(fuenteJson)
             .then(response => response.json())
@@ -121,16 +121,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 data.forEach((anime, index) => {
                     let rutaImagen = anime.imagen;
-                    if (rutaImagen && !rutaImagen.startsWith("img/")) {
-                        rutaImagen = `img/${rutaImagen}`;
+                    if (rutaImagen && !rutaImagen.startsWith("/img/")) {
+                        rutaImagen = rutaImagen.startsWith("img/") ? `/${rutaImagen}` : `/img/${rutaImagen}`;
                     }
                     if (!anime.imagen || anime.imagen === "img") {
-                        rutaImagen = "img/placeholder.jpg";
+                        rutaImagen = "/img/placeholder.jpg";
                     }
 
                     let rutaFondo = anime.fondo || rutaImagen;
-                    if (rutaFondo && !rutaFondo.startsWith("img/")) {
-                        rutaFondo = `img/${rutaFondo}`;
+                    if (rutaFondo && !rutaFondo.startsWith("/img/")) {
+                        rutaFondo = rutaFondo.startsWith("img/") ? `/${rutaFondo}` : `/img/${rutaFondo}`;
                     }
 
                     const card = document.createElement("div");
@@ -223,8 +223,8 @@ document.addEventListener("DOMContentLoaded", function () {
         let catalogoCache = null;
 
         Promise.all([
-            fetch("animes.json").then(r => r.json()).catch(() => []),
-            fetch("peliculas.json").then(r => r.json()).catch(() => [])
+            fetch("/js/api/animes.json").then(r => r.json()).catch(() => []),
+            fetch("/js/api/peliculas.json").then(r => r.json()).catch(() => [])
         ]).then(([animes, peliculas]) => {
             catalogoCache = [
                 ...animes.map(a => ({ ...a, _tipo: "anime" })),
@@ -254,11 +254,11 @@ document.addEventListener("DOMContentLoaded", function () {
             } else {
                 coincidencias.forEach(item => {
                     let rutaImagen = item.imagen;
-                    if (rutaImagen && !rutaImagen.startsWith("img/")) {
-                        rutaImagen = `img/${rutaImagen}`;
+                    if (rutaImagen && !rutaImagen.startsWith("/img/")) {
+                        rutaImagen = rutaImagen.startsWith("img/") ? `/${rutaImagen}` : `/img/${rutaImagen}`;
                     }
 
-                    const destino = item._tipo === "pelicula" ? "ver-pelicula.html" : "ver.html";
+                    const destino = item._tipo === "pelicula" ? "/pages/ver-pelicula.html" : "/pages/ver.html";
                     const etiqueta = item._tipo === "pelicula" ? " 🎬" : "";
 
                     const a = document.createElement("a");
@@ -307,15 +307,15 @@ function initRowCarousels() {
     if (!filas.length) return;
 
     Promise.all([
-        fetch("animes.json").then(r => r.json()).catch(() => []),
-        fetch("peliculas.json").then(r => r.json()).catch(() => [])
+        fetch("/js/api/animes.json").then(r => r.json()).catch(() => []),
+        fetch("/js/api/peliculas.json").then(r => r.json()).catch(() => [])
     ]).then(([animes, peliculas]) => {
 
         filas.forEach(fila => {
             const track = fila.querySelector(".row-track");
             const esPeliculas = fila.dataset.source === "peliculas";
             const catalogo = esPeliculas ? peliculas : animes;
-            const destino = esPeliculas ? "ver-pelicula.html" : "ver.html";
+            const destino = esPeliculas ? "/pages/ver-pelicula.html" : "/pages/ver.html";
 
             let items;
 
@@ -335,8 +335,8 @@ function initRowCarousels() {
 
             items.forEach(item => {
                 let rutaImagen = item.imagen;
-                if (rutaImagen && !rutaImagen.startsWith("img/")) {
-                    rutaImagen = `img/${rutaImagen}`;
+                if (rutaImagen && !rutaImagen.startsWith("/img/")) {
+                    rutaImagen = rutaImagen.startsWith("img/") ? `/${rutaImagen}` : `/img/${rutaImagen}`;
                 }
 
                 const card = document.createElement("div");
@@ -464,7 +464,7 @@ function precargarOFallback(url, titulo, callback) {
 ========================= */
 
 function verAnime(nombre, pagina) {
-    const destino = pagina || "ver.html";
+    const destino = pagina || "/pages/ver.html";
     location.assign(`${destino}?titulo=${encodeURIComponent(nombre)}`);
 }
 
@@ -484,7 +484,7 @@ function cerrarSesionDemo() {
     localStorage.removeItem("shinkuUsuarioDemo");
     actualizarEstadoSesion();
     if (document.getElementById("logged-in-box")) {
-        location.assign("login.html");
+        location.assign("/pages/login.html");
     }
 }
 
@@ -502,13 +502,13 @@ function actualizarEstadoSesion() {
             navLogin.classList.add("logged-in");
             if (link) {
                 link.textContent = `👤 ${usuario}`;
-                link.href = "login.html";
+                link.href = "/pages/login.html";
             }
         } else {
             navLogin.classList.remove("logged-in");
             if (link) {
                 link.textContent = "Iniciar Sesion";
-                link.href = "login.html";
+                link.href = "/pages/login.html";
             }
         }
     }
